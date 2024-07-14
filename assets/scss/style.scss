@@ -1,0 +1,12 @@
+@import 'variable';
+@import 'mixin';
+
+body {
+    font-family: $font-family-primary;
+    font-size: $font-size;
+    color: $color-text;
+    line-height: 1.4rem;
+}
+
+
+
