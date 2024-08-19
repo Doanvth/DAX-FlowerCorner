@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Chậu Hoa Lan Hồ Điệp Đẹp Mừng Khai Trương, Sinh Nhật Giá Tốt Nhất
+    </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu-main">
+        <div class="contact-numbers">HOTLINE: 1900 633 045 | 0865 160 360</div>
+        <div class="nav-items">
+          <i class="fa-solid fa-user" style="color: #4f4f4f"></i>Tài khoản
+          <i class="fa-solid fa-cart-shopping" style="color: #4f4f4f"></i>Giỏ
+          hàng <i class="fa-solid fa-share" style="color: #4f4f4f"></i>Thanh
+          toán
+        </div>
+      </div>
+    </header>
+
+    <div class="header-container">
+      <div class="social-media">
+        <a href="">
+          <i class="fa-brands fa-facebook fa-2xl" style="color: #3b5998"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter fa-2xl" style="color: #38a1f3"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-instagram fa-2xl" style="color: #cd486b"></i>
+        </a>
+      </div>
+
+      <div class="logo-shop">
+        <a href="index.html">
+          <img
+            src="https://www.flowercorner.vn/image/catalog/common/shop-hoa-tuoi-flowercorner-logo.png.webp"
+            title="FlowerCorner.vn - Shop hoa tươi"
+            alt="FlowerCorner.vn - Shop hoa tươi"
+            class="img-fluid"
+            width="300"
+            height="62"
+        /></a>
+      </div>
+
+      <div class="purchase-bar">
+        <div class="search-bar">
+          <input type="text" placeholder="Tìm kiếm" class="text-control" />
+          <button type="button" class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="buy-bar">
+          <div class="buy-icon" onclick="toggleCartDropdown()">
+            <button type="button" class="btn btn-inverse btn-block">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+            <span id="cart-count" class="mini-cart-count">0</span>
+          </div>
+          <div id="cart-dropdown">
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+            <div class="cart-actions">
+              <a href="checkout.html" class="">
+                <i class="fa-solid fa-cart-shopping"></i> Giỏ hàng
+              </a>
+              <span class="line-cart">|</span>
+              <a href="checkout.html" class="">
+                <i class="fa-solid fa-share"></i> Thanh toán
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-menu">
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="hoa-sinh-nhat.html" class="drop">HOA SINH NHẬT</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HOA SINH NHẬT SANG TRỌNG</a></li>
+              <li><a href="#">HOA SINH NHẬT GIÁ RẺ</a></li>
+              <li><a href="#">HOA TẶNG SINH NHẬT NGƯỜI YÊU</a></li>
+              <li><a href="#">HOA TẶNG SINH NHẬT MẸ</a></li>
+              <li><a href="#">HOA TẶNG SINH NHẬT BẠN</a></li>
+              <li><a href="#">LẴNG HOA TẶNG SINH NHẬT</a></li>
+              <li><a href="#">HOA HỒNG TẶNG SINH NHẬT</a></li>
+              <li><a href="#">GIỎ HOA SINH NHẬT</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="hoa-khai-truong.html" class="drop">HOA KHAI TRƯƠNG</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HOA KHAI TRƯƠNG ĐỂ BÀN</a></li>
+              <li><a href="#">KỆ HOA KHAI TRƯƠNG</a></li>
+              <li><a href="#">KỆ HOA KHAI TRƯƠNG HIỆN ĐẠI</a></li>
+              <li><a href="#">HOA KHAI TRƯƠNG GIÁ RẺ</a></li>
+              <li><a href="#">LẴNG HOA 2 TẦNG MỪNG KHAI TRƯƠNG</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="lan-ho-diep.html" class="drop">LAN HỒ ĐIỆP</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">LAN HỒ ĐIỆP MINI</a></li>
+              <li><a href="#">LAN HỒ ĐIỆP VÀNG</a></li>
+              <li><a href="#">LAN HỒ ĐIỆP TRẮNG</a></li>
+              <li><a href="#">LAN HỒ ĐIỆP TÍM</a></li>
+              <li><a href="#">CHẬU LAN HỒ ĐIỆP 3 CÀNH</a></li>
+              <li><a href="#">CHẬU LAN HỒ ĐIỆP 5 CÀNH</a></li>
+              <li><a href="#">CHẬU LAN HỒ ĐIỆP 10 CÀNH</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="drop">CHỦ ĐỀ</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HOA CHÚC MỪNG</a></li>
+              <li><a href="#">HOA CƯỚI CẦM TAY</a></li>
+              <li><a href="#">HOA TANG LỄ - HOA CHIA BUỒN</a></li>
+              <li><a href="#">HOA TÌNH YÊU</a></li>
+              <li><a href="#">HOA VALENTINE</a></li>
+              <li><a href="#">HOA KỶ NIỆM NGÀY CƯỚI</a></li>
+              <li><a href="#">NGÀY CỦA MẸ</a></li>
+              <li><a href="#">HOA CHÚC MỪNG 8-3</a></li>
+              <li><a href="#">HOA CHÚC MỪNG 20-10</a></li>
+              <li><a href="#">NGÀY NHÀ GIÁO VN</a></li>
+              <li><a href="#">GIÁNG SINH</a></li>
+              <li><a href="#">TẾT ÂM LỊCH</a></li>
+              <li><a href="#">HOA TỐT NGHIỆP</a></li>
+              <li><a href="#">HOA ĐỊNH KỲ</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="drop">THIẾT KẾ</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">BÓ HOA</a></li>
+              <li><a href="#">LẴNG HOA</a></li>
+              <li><a href="#">GIỎ HOA</a></li>
+              <li><a href="#">KỆ HOA</a></li>
+              <li><a href="#">BÌNH HOA</a></li>
+              <li><a href="#">HỘP HOA</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="drop">HOA TƯƠI</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HOA HỒNG</a></li>
+              <li><a href="#">HOA BABY</a></li>
+              <li><a href="#">HOA HƯỚNG DƯƠNG</a></li>
+              <li><a href="#">HOA LAN HỒ ĐIỆP</a></li>
+              <li><a href="#">HOA TULIP</a></li>
+              <li><a href="#">HOA CÚC TANA</a></li>
+              <li><a href="#">HOA THẠCH THẢO</a></li>
+              <li><a href="#">HOA MẪU ĐƠN</a></li>
+              <li><a href="#">CÚC MẪU ĐƠN</a></li>
+              <li><a href="#">HOA CẨM TÚ CẦU</a></li>
+              <li><a href="#">HOA LY</a></li>
+              <li><a href="#">HOA SEN</a></li>
+              <li><a href="#">HOA ĐỒNG TIỀN</a></li>
+              <li><a href="#">HOA CẨM CHƯỚNG</a></li>
+              <li><a href="#">HOA CÚC HỌA MI</a></li>
+            </ul>
+          </li>
+
+          <li><a href="">HOA TƯƠI GIẢM 30%</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="logo-main">
+      <p>
+        ĐẶT HOA ONLINE - GIAO MIỄN PHÍ TP HCM & HÀ NỘI - GỌI NGAY 1900 633 045
+        HOẶC 0865 160 360
+      </p>
+      <div class="type-flower">
+        <h1>Hoa Khai Trương</h1>
+      </div>
+      <div class="product-control">
+        <div class="button-group">
+          <i class="fa-solid fa-table-cells"></i>
+        </div>
+        <div class="general-sort">
+          <div class="sort-type cbo-1">
+            <div class="input-group">
+              <label for="input-type">Sắp xếp theo</label>
+              <select name="" id="input-type">
+                <option value="">Mặc định</option>
+                <option value="">Tên (A - Z)</option>
+                <option value="">Tên (Z - A)</option>
+                <option value="">Giá (Thấp> Cao)</option>
+                <option value="">Giá (Cao> Thấp)</option>
+                <option value="">Mô hình (A - Z)</option>
+                <option value="">Mô hình (Z - A)</option>
+              </select>
+            </div>
+          </div>
+          <div class="sort-type cbo-2">
+            <div class="input-group">
+              <label for="input-limit">Số lượng</label>
+              <select name="" id="input-limit">
+                <option value="">12</option>
+                <option value="">24</option>
+                <option value="">48</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="row list-products"></div>
+
+      <div class="row bg-2">
+        <div class="col-details">
+          <div class="pagination">
+            <a href="" class="active">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="">7</a>
+            <a href="">8</a>
+            <a href="">9</a>
+            <a href="">></a>
+            <a href="">>|</a>
+          </div>
+
+          <div class="quantity-products">
+            Hiển thị từ 1 đến 24 / 516 (22 Trang)
+          </div>
+        </div>
+      </div>
+
+      <div class="row bg-3">
+        <p>Chậu Hoa Lan Hồ Điệp Mừng Khai Trương</p>
+        <div class="info-birthday">
+          <strong>Hoa lan hồ điệp</strong> là món quà tặng cao cấp, sang trọng
+          được nhiều người lựa chọn để gửi tặng đối tác, người thân, bạn bè nhân
+          dịp khai trương, sinh nhật hay Tết Nguyên Đán.
+          <br />
+          <br />
+          Nếu bạn đang cần đặt một <u>chậu lan hồ điệp</u> gửi tặng đối tác,
+          người thân, hãy tham khảo ngay bộ sưu tập những mẫu chậu hoa lan hồ
+          điệp đẹp, sang trọng được thiết kế bởi shop hoa tươi FlowerCorner.vn
+          nhé!
+
+          <h2>Các loài hoa lan hồ điệp phổ biến</h2>
+          Tại Việt Nam, có nhiều loài hoa lan hồ điệp khác nhau. Tuy nhiên, chỉ
+          có 2 loài lan hồ điệp được sử dụng nhiều nhất để làm quà tặng đó là:
+          lan hồ điệp thường và lan hồ điệp mini.
+
+          <h2>Lan hồ điệp đại</h2>
+          Đại hồ điệp là loại
+          <strong class="color-pink bold">hoa lan hồ điệp</strong> phổ biến nhất
+          tại Việt Nam. Đến 80% hoa lan hồ điệp đang bán trên thị trường hiện
+          nay là đại hồ điệp. Đặc điểm dễ nhận biết nhất của đại hồ điệp đó là
+          cành hoa dài, bông lớn và chỉ có một màu.
+          <br />
+          <br />
+          Đại hồ điệp chủ yếu được dùng để làm hoa khai trương cửa hàng, Công
+          ty, hoa tặng đối tác vào những dịp đặc biệt hay chưng nhà vào dịp Tết
+          Nguyên Đán.
+
+          <img
+            src="https://www.flowercorner.vn/image/catalog/products/August 2023/chau-lan-ho-diep-trang-061.jpg"
+            alt=""
+          />
+          <h2>Lan hồ điệp mini</h2>
+          <strong class="color-pink">Hoa lan hồ điệp mini</strong> hay còn gọi
+          là lan hồ điệp nhí hoặc tiểu hồ điệp thường ít gặp hơn. Trái ngược với
+          hoa lan hồ điệp loại thường, lan hồ điệp nhí có cành hoa ngắn, bông
+          hoa nhỏ hơn, nhưng lại có màu sắc độc đáo hơn.
+          <br />
+          <br />
+          Hoa lan hồ điệp mini phù hợp để làm hoa sinh nhật hoặc chưng nhà vào
+          dịp Tết Nguyên Đán.
+
+          <img
+            src="https://www.flowercorner.vn/image/catalog/products/August%202023/chau-hoa-lan-ho-diep-mini.jpg"
+            alt=""
+          />
+          <h2>Lan hồ điệp đột biến</h2>
+          Hoa lan hồ điệp đột biến là loại lan mang đầy đủ những ưu điểm của đại
+          hồ điệp và tiểu hồ điệp. Lan hồ điệp đột biến vừa có màu sắc độc đáo,
+          bắt mắt như tiểu hồ điệp, đồng thời cũng sở hữu cành hoa dài và bông
+          hoa size lớn như đại hồ điệp.
+
+          <h2>Cách chọn hoa lan hồ điệp làm quà tặng</h2>
+          Khi lựa chọn hoa lan hồ điệp để làm quà tặng sinh nhật, khai trương,
+          hoặc Tết Nguyên Đán thì bạn cần phải chú ý đến những yếu tố sau:
+
+          <h2>Loại hoa lan</h2>
+          Nếu chọn hoa lan để chúc mừng khai trương hay chưng nhà vào dịp Tết
+          Nguyên Đán, hoa lan hồ điệp đại và lan hồ điệp đột biến sẽ là lựa chọn
+          phù hợp hơn so với lan hồ điệp mini.
+          <br />
+          <br />
+          Khi chọn hoa lan tặng sinh nhật, bạn nên chọn hoa lan hồ điệp mini để
+          tặng những người trẻ tuổi. Đối với người lớn tuổi, cấp trên hay đối
+          tác thì hoa lan hồ điệp đại sẽ là sự lựa chọn phù hợp.
+
+          <h2>Chọn Theo Màu sắc</h2>
+          Bạn có thể chọn bất cứ màu sắc nào của lan hồ điệp tặng sinh nhật,
+          khai trương hay chưng nhà vào dịp Tết Nguyên Đán. Trong đó, 3 lựa chọn
+          phổ biến nhất là màu vàng, trắng và tím.
+          <br />
+          <br />
+          Trong khi đó, nếu chọn hoa lan hồ điệp gửi lời chia buồn đám tang, thì
+          hoa lan hồ điệp màu trắng sẽ là lựa chọn hoàn hảo.
+
+          <h2>Chọn chậu lan hồ điệp theo số cành</h2>
+          Khi lựa chọn hoa lan hồ điệp để làm quà tặng, nếu chọn những chậu hoa
+          lan có số lượng dưới 10 cành, bạn nên lựa chọn số cành lẻ. Còn nếu lựa
+          chọn chậu lan từ 10 cành trở lên, bạn có thể lựa chọn cả số cành lẻ
+          hoặc chẵn. Tuy nhiên, nên chú ý tránh các số 13 và 14, bởi đây được
+          xem là những con số xui xẻo.
+          <br />
+          <br />
+          Dưới đây là ý nghĩa của số cành lan hồ điệp được nhiều người lựa chọn.
+          <p>
+            <strong>Chậu 1 cành hồ điệp</strong>: Chậu 01 cành hồ điệp đại diện
+            cho sự tôn trọng và ngưỡng mộ.
+          </p>
+          <p>
+            <strong>Chậu 3 cành hồ điệp</strong>: Chậu lan hồ điệp 3 cành tượng
+            trưng cho sự trường thọ. Thường được chọn để gửi tặng sinh nhật ba
+            mẹ.
+          </p>
+          <p>
+            <strong>Chậu 5 cành hồ điệp</strong>:
+            <strong class="color-pink">Chậu lan hồ điệp 5 cành</strong> đại diện
+            cho ngũ phúc đó là Phúc – Lộc – Thọ - Khang – Ninh.
+          </p>
+          <img
+            src="https://www.flowercorner.vn/image/catalog/products/August%202023/chau-lan-ho-diep-5-canh.jpg"
+            alt=""
+          />
+          <p>
+            <strong>Chậu 7 cành hồ điệp</strong>: Chậu lan hồ điệp 7 cành tượng
+            trưng cho sự may mắn và hoàn hảo.
+          </p>
+          <p>
+            <strong>Chậu 9 cành hồ điệp</strong>: Chậu 9 cành lan hồ điệp mang ý
+            nghĩa tượng trưng cho sự trường tồn, vĩnh cửu và bền vững.
+          </p>
+          <p>
+            <strong>Chậu 10 cành hồ điệp</strong>: Chậu 10 cành lan hồ điệp đại
+            diện cho sự sung túc, hoàn hảo và vẹn toàn.
+          </p>
+          <p>
+            <strong>Chậu 12 cành hồ điệp</strong>: Chậu 12 cành lan hồ điệp
+            tượng trưng cho sự thịnh vượng và phát triển.
+          </p>
+
+          <h2>Ý nghĩa của hoa lan hồ điệp</h2>
+          Không chỉ là loài hoa cao cấp, sang trọng hoa lan hồ điệp còn ẩn chứa
+          nhiều ý nghĩa tốt lành. Lan hồ điệp là loài hoa tượng trưng cho sự
+          thịnh vượng, sức khỏe, tài lộc và may mắn.
+          <br />
+          <br />
+          Ngoài ra, mỗi màu sắc của hoa lan hồ điệp cũng có những ý nghĩa đặc
+          trưng. Dưới đây là ý nghĩa của hoa lan hồ điệp theo màu sắc.
+          <p>
+            <strong class="color-pink bold">Lan hồ điệp vàng</strong>: Tượng
+            trưng cho phú quý, tài lộc, sự khởi đầu mới và tình bạn. Hoa lan hồ
+            điệp là lựa chọn hoàn hảo để gửi tặng đối tác dịp khai trương và
+            trang trí nhà cửa vào dịp Tết Nguyên Đán.
+          </p>
+
+          <p>
+            <strong class="color-pink bold">Lan hồ điệp trắng: </strong>
+            Tượng trưng cho sự tôn kính, xinh đẹp và sang trọng. Đây cũng là một
+            trong những màu sắc được ưa chuộng và thường được dùng làm quà tặng
+            sinh nhật hoặc khai trương.
+          </p>
+
+          <p>
+            <strong>Lan hồ điệp tím</strong>: Mang ý nghĩa tượng trưng cho sự
+            khâm phục, tôn trọng và cũng là màu sắc của sự sang trọng.
+          </p>
+
+          <p>
+            <strong>Lan hồ điệp hồng</strong>: Đại diện cho niềm vui, hạnh phúc,
+            sự nữ tính và duyên dáng. Lan hồ điệp màu hồng phù hợp để làm quà
+            tặng sinh nhật mẹ, cô giáo, đối tác hoặc sếp nữ.
+          </p>
+
+          <h2>Tặng hoa lan hồ điệp vào dịp nào?</h2>
+          Vừa sang trọng, cao cấp lại mang nhiều ý nghĩa tốt lành, hoa lan hồ
+          điệp là lựa chọn phù hợp để làm quà tặng cho hầu hết các dịp đặc biệt.
+
+          <h2>Chúc mừng khai trương</h2>
+          Hoa lan hồ điệp là lựa chọn hoàn hảo để làm quà tặng người thân, đối
+          tác nhân dịp khai trương cửa hàng, Công ty. Không chỉ đẹp, sang trọng,
+          mang nhiều ý nghĩa tốt lành, hoa lan hồ điệp có thể chưng được lâu đến
+          hơn 1 tháng nếu được chăm sóc đúng cách.
+          <img
+            src="https://www.flowercorner.vn/image/catalog/products/August%202023/chau-hoa-lan-ho-diep-khai-truong.jpg"
+            alt=""
+          />
+
+          <h2>Tết nguyên đán</h2>
+          Là loài hoa mang ý nghĩa may mắn, tài lộc, hoa lan hồ điệp cũng là một
+          trong những loài hoa được nhiều gia đình lựa chọn để chưng nhà, văn
+          phòng hoặc làm quà tặng đối tác dịp năm mới.
+
+          <h2>Tặng sinh nhật</h2>
+          Nếu bạn cần một loài đẹp, sang trọng và cao cấp để làm hoa tặng sinh
+          nhật đối tác, cấp trên hay những người lớn tuổi thì một chậu lan hồ
+          điệp là gợi ý mà bạn không thể bỏ qua.
+          <img
+            src="https://www.flowercorner.vn/image/catalog/products/August%202023/chau-hoa-lan-ho-diep-mung-sinh-nhat.jpg"
+            alt=""
+          />
+
+          <h2>Giá hoa lan hồ điệp bao nhiêu 1 cành?</h2>
+          Giá hoa lan hồ điệp trên thị trường bị ảnh hưởng bởi nhiều yếu tố.
+          Trong đó, 3 yếu tố chính và cũng là quan trọng nhất đó là: chất lượng
+          hoa, số lượng cành và cách trang trí.
+          <br />
+          <br />
+          Hoa lan hồ điệp thường được chia làm nhiều loại gồm: Lan hồ điệp loại
+          A++, A+, A và loại thường. Các loại lan hồ điệp A++ hoặc A+ sẽ có giá
+          cao hơn so với các loại lan hồ điệp thường.
+          <br />
+          <br />
+          Chậu lan hồ điệp càng ít cành thì thường sẽ có mức giá trung bình trên
+          mỗi cành càng cao. Trong khi, những chậu lan càng có nhiều cành, thì
+          mức giá trung bình của mỗi cành lan sẽ thấp hơn.
+          <br />
+          <br />
+          <strong>Ví dụ</strong>: Những chậu lan hồ điệp dưới 3 cành sẽ có mức
+          giá khoảng 330.000đ – 450.000đ/cành.
+          <br />
+          <br />
+          Những chậu lan từ 5 cành trở lên sẽ có mức giá chỉ từ 280.000đ –
+          300.000đ/cành.
+          <br />
+          <br />
+          Giá hoa lan hồ điệp cũng sẽ có sự chênh lệch ít nhiều tùy theo cách
+          trang trí của các cửa hàng. Mặc dù cùng là một chậu hoa với 5 cành lan
+          hồ điệp, nhưng những chậu hoa trang trí đơn giản với chậu trắng, sẽ có
+          giá thấp hơn so với những chậu hoa lan được cắm trong chậu hoa văn và
+          được trang trí theo chủ đề.
+          <br />
+          <br />
+          Ngoài ra, giá hoa lan hồ điệp vào dịp cận Tết Nguyên Đán cũng sẽ tăng
+          khoảng từ 30-40% so với giá hoa ngày thường, bởi hoa lan hồ điệp vừa
+          là loài hoa chưng nhà ngày Tết, vừa là lựa chọn phổ biến để gửi tặng
+          khách hàng, đối tác vào dịp Tết Nguyên Đán.
+
+          <h2>Đặt hoa lan hồ điệp ở đâu?</h2>
+          Nếu bạn đang cần tìm một địa chỉ uy tín để đặt hoa lan hồ điệp tặng
+          người thân, đối tác dịp khai trương thì FlowerCorner.vn là sự lựa chọn
+          đáng tin cậy dành cho bạn. FlowerCorner.vn là một trong những Công ty
+          hàng đầu trong lĩnh vực điện hoa tại Việt Nam. FlowerCorner.vn hiện
+          đang cung cấp dịch vụ đặt chậu hoa lan hồ điệp online giao tận nơi
+          Miễn Phí tại TP HCM và Hà Nội.
+
+          <h2>Tại sao nên chọn FlowerCorner?</h2>
+          Không khó để bạn có thể tìm được một shop hoa lan hồ điệp tại TP HCM.
+          Tuy nhiên, để tìm được một shop bán hoa lan hồ điệp uy tín thì lại
+          không phải là điều dễ dàng. Vậy, tại sao bạn lại nên đặt hoa lan hồ
+          điệp FlowerCorner.vn?
+          <br />
+          <br />
+          <strong>Hoa giống như hình:</strong> Nỗi lo lớn nhất của nhiều người
+          khi đặt hoa lan hồ điệp online đó là hoa thực tế không được đẹp như
+          hình ảnh trên website. Với FlowerCorner.vn, bạn sẽ không còn phải lo
+          lắng về vấn đề này.
+          <br />
+          <br />
+          FlowerCorner.vn cam kết hình ảnh hoa ngoài thực tế giống ít nhất 80%
+          so với hình ảnh trên website. Sau khi hoa được làm xong,
+          FlowerCorner.vn sẽ gửi hình ảnh thực tế của chậu hoa để khách hàng
+          duyệt trước khi tiến hành giao hoa cho người nhận.
+          <br />
+          <br />
+          <strong>Giao hoa đúng giờ</strong>: Giao hoa đúng giờ là một trong
+          những yêu cầu được gần như 100% khách hàng tại Flowercorner.vn đề cập
+          trước khi đặt hoa.
+          <br />
+          <br />
+          FlowerCorner.vn cam kết giao hoa đúng giờ mà khách hàng đã yêu cầu.
+          FlowerCorner.vn sẽ hoàn toàn chịu mọi trách nhiệm và hoàn tiền 100%
+          trong trường hợp hoa giao không đúng giờ đã cam kết.
+          <br />
+          <br />
+          Bên cạnh đó, dịch vụ đặt hoa lan giao nhanh trong 2 tiếng tại TP HCM
+          của FlowerCorner.vn cũng sẽ giúp bạn kịp thời gửi hoa tới người thân
+          trong trường hợp cần đặt hoa gấp.
+          <br />
+          <br />
+          <strong>Đặt hoa đơn giản – thanh toán dễ dàng</strong>: Với
+          Flowercorner.vn, bạn có thể dễ dàng đặt một chậu lan hồ điệp đẹp như ý
+          ở bất cứ đâu và vào bất cứ lúc nào. Chỉ cần truy cập website
+          www.flowercorner.vn và lựa chọn một mẫu hoa ưng ý, FlowerCorner.vn sẽ
+          làm hoa và giao đến tận nơi mà bạn yêu cầu.
+          <br />
+          <br />
+          FlowerCorner.vn hiện cung cấp cho bạn nhiều lựa chọn về phương thức
+          thanh toán từ: COD, chuyển khoản ngân hàng, thanh toán qua thẻ visa,
+          master card, Paypal… để bạn có thể dễ dàng đặt hoa mà không gặp phải
+          bất cứ trở ngại nào.
+
+          <h2>Ưu đãi khi đặt lan hồ điệp tại FlowerCorner</h2>
+          Bên cạnh đó, khi đặt <strong>chậu hoa lan hồ điệp</strong> tại
+          FlowerCorner.vn, khách hàng cũng sẽ nhận được nhiều ưu đãi hấp dẫn:
+          <ul>
+            <li>Giảm ngay đến 50k cho khách hàng mới.</li>
+            <li>Giảm thêm đến 10% cho khách hàng thân thiết.</li>
+            <li>Giao hoa tận nơi Miễn Phí tại TP HCM và Hà Nội.</li>
+            <li>Tặng kèm banner chúc mừng.</li>
+          </ul>
+          Bạn đang cần đặt một chậu hoa lan hồ điệp để làm quà tặng? Gọi ngay
+          1900 633 045 hoặc chat với FlowerCorner.vn để đươc tư vấn lựa chọn một
+          mẫu hoa phù hợp gửi tặng người thân nhé!
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="info-download">
+          <img
+            src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/shop-hoa-tuoi-flowercorner-logo.png.webp"
+            alt=""
+          />
+          Hotline: 1900 633 045 - 0865 160 360 Email: sales@flowercorner.vn
+          <div class="download-app">
+            <div class="qr-code">
+              <img
+                src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/app/qr.png.webp"
+                alt="quét để tải app FlowerCorner"
+              />
+            </div>
+            <div class="store-link">
+              Tải ứng dụng ngay!
+              <div class="store-img">
+                <img
+                  src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/app/appstore.png.webp"
+                  alt="FlowerCorner trên app store"
+                />
+                <img
+                  src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/app/gplay.png.webp"
+                  alt="FlowerCorner trên Google play"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="notice-bct">
+            <img
+              src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/app/logoSaleNoti.png.webp"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="info-support">
+          <h5>CHĂM SÓC KHÁCH HÀNG</h5>
+          <p class="danhmuc">
+            <a href="gioi-thieu.html" class="color-grey">Giới thiệu</a>
+          </p>
+          <p class="danhmuc">
+            <a href="lien-he.html" class="color-grey">Liên Hệ</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Chính Sách Vận Chuyển</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Câu Hỏi Thường Gặp</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Hình Thức Thanh Toán</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Bảo Mật Thông Tin</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Chính Sách Hoàn Tiền</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Xử Lý Khiếu Nại</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Tại Sao Nên Chọn FlowerCorner.vn</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Blog</a>
+          </p>
+        </div>
+
+        <div class="info-media">
+          <h5>THEO DÕI</h5>
+          <div class="mxh">
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook</a
+              >
+            </p>
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-twitter-square"></i>
+                Twitter</a
+              >
+            </p>
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram</a
+              >
+            </p>
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-linkedin"></i>
+                Linkedin</a
+              >
+            </p>
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-youtube"></i>
+                Youtube</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="info-address">
+          <h5>SHOP HOA FLOWERCORNER</h5>
+          <div class="address">
+            <p>
+              <strong>Cửa hàng chính</strong>:
+              <a href="#" class="color-grey"
+                >142 Nguyễn Văn Cừ, Phường Nguyễn Cư Trinh, Quận 1, TP.HCM</a
+              >
+            </p>
+            <p>
+              <strong>Chi nhánh TP.HCM</strong>:
+              <a href="#" class="color-grey"
+                >225/3 Nguyễn Đình Chiểu, Phường 5, Quận 3, TP.HCM</a
+              >
+            </p>
+            <p>
+              <strong>Chi nhánh Hà Nội</strong>:
+              <a href="#" class="color-grey">65 Trần Phú, Ba Đình, Hà Nội</a>
+            </p>
+            <p>
+              CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ ZAS
+              <br />
+              Mã số thuế: 0313630426
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-bar">
+          <div class="contact-numberphone">
+            <i class="fa-solid fa-phone-volume" style="color: #ffffff"></i>
+            <span>091 849 1941</span>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="contact-zalo">
+            <img src="img/icons8-zalo-50 (1).png" alt="" />
+            <span>Nhắn tin zalo</span>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="contact-numberphone">
+            <i class="fa-solid fa-phone-volume" style="color: #ffffff"></i>
+            <span>086 516 0360</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/product-lan-ho-diep.js"></script>
+    <script src="js/nav-menu-fixed.js"></script>
+    <script src="js/cart-drop-down.js"></script>
+  </body>
+</html>

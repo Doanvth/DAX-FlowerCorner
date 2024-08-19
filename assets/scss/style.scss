@@ -1,12 +1,16 @@
-@import 'variable';
-@import 'mixin';
-
-body {
-    font-family: $font-family-primary;
-    font-size: $font-size;
-    color: $color-text;
-    line-height: 1.4rem;
-}
-
-
-
+@import "mixin";
+@import "variable";
+@import "header";
+@import "footer";
+@import "slider";
+@import "product";
+@import "info-shop";
+@import "dropdown";
+@import "cart-dropdown";
+@import "iconbar";
+@import "countdown";
+@import "type-product";
+@import "pagination";
+@import "support";
+@import "product-detail";
+@import "table-purchase";
