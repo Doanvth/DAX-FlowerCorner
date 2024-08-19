@@ -1,0 +1,30 @@
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  width: 258px;
+  height: 45px;
+}
+
+.countdown div {
+  flex: 1;
+}
+
+.countdown span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.countdown .expired {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+}

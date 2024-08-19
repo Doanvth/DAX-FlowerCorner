@@ -1,0 +1,208 @@
+footer {
+  padding-bottom: 50px !important;
+  border-top: 1px solid rgba(79, 79, 79, 0.2);
+  background-color: white;
+  height: max-content;
+}
+
+.row {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.card {
+  flex: 25%;
+  position: relative;
+  text-align: center;
+}
+
+.row p {
+  text-align: center !important;
+  margin-top: 36px !important;
+  margin-bottom: 16px !important;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.product-type {
+  font-size: 23px;
+  color: #444;
+  text-align: center !important;
+  margin-bottom: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: Montserrat, sans-serif;
+}
+
+.options {
+  margin-top: 30px !important;
+  margin-bottom: 25px !important;
+}
+
+.info-download p,
+.info-support p,
+.info-media p,
+.info-address p {
+  font-weight: 350;
+  color: #3d3d3d;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.info-download {
+  flex: 25%;
+  padding: 20px;
+}
+
+.info-download img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.download-app {
+  display: flex;
+}
+
+.qr-code {
+  flex: 35%;
+}
+
+.qr-code img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.store-link {
+  flex: 65%;
+  padding: 15px;
+}
+
+.store-img {
+  margin-top: 10px;
+}
+
+.store-img img {
+  width: 100%;
+  height: auto;
+}
+
+.notice-bct img {
+  width: 100%;
+  height: auto;
+}
+
+.qr-code img,
+.store-img img,
+.notice-bct img {
+  cursor: pointer;
+}
+
+footer h5 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.info-support {
+  padding: 20px;
+  flex: 25%;
+}
+
+.info-support .danhmuc {
+  text-align: left !important;
+  line-height: 0px;
+}
+
+.info-media {
+  flex: 15%;
+  margin-top: 20px;
+}
+
+.mxh {
+  display: block;
+}
+
+.info-media p {
+  text-align: left !important;
+  line-height: 0px;
+}
+
+.info-media .color-grey i {
+  line-height: 0px;
+}
+
+.color-grey:hover {
+  color: #e91e63;
+}
+
+.info-address {
+  flex: 35%;
+  margin-top: 20px;
+}
+
+.info-address h5 {
+  margin-top: 18px;
+  line-height: 0px;
+}
+
+.info-address p {
+  text-align: left !important;
+  line-height: 18px;
+}
+
+.contact-bar {
+  background-color: #e91e63;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  z-index: 9999;
+}
+
+.contact-bar .contact-numberphone,
+.contact-bar .contact-zalo {
+  display: flex;
+  align-items: center;
+}
+
+.contact-bar .contact-numberphone i,
+.contact-bar .contact-zalo img {
+  margin-right: 5px;
+}
+
+.contact-bar .contact-zalo img {
+  width: 23px;
+  height: 23px;
+}
+
+.line {
+  height: 32px;
+  width: 0.5px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+.color-pink {
+  color: #e91e63;
+}
+
+.color-pink:hover {
+  color: #1b7ba0;
+  cursor: pointer;
+}
