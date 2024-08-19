@@ -1,0 +1,121 @@
+#cart-table {
+  width: 1200px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#cart-table th,
+#cart-table td {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+#cart-table .btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#cart-table .btn-success,
+#cart-table .btn-danger {
+  width: 37px;
+  height: 37px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+}
+
+#cart-table .btn-success {
+  background-color: #198754;
+}
+
+#cart-table .btn-danger {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #da4f49;
+}
+
+.form-control {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin: 0;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* General table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #e9ecef;
+}
+
+/* Styles for the quantity container */
+.quantity-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-container input {
+  text-align: left;
+  width: 100px;
+  padding: 6px;
+  border: 1px solid #ced4da;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #fff;
+  outline: none;
+  margin: 10px 0px 0px 0px;
+}
+
+.quantity-container input:focus {
+  border-color: #ff5e6c;
+}
+
+.quantity-container button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0px 0px 0px;
+}
+
+.total {
+  text-align: right;
+}
+
+#cart-table th,
+#cart-table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle; /* Đảm bảo văn bản ở giữa cột */
+}
+
+#cart-table th:nth-child(4),
+#cart-table th:nth-child(5),
+#cart-table td:nth-child(4),
+#cart-table td:nth-child(5) {
+  text-align: right; /* Căn chỉnh văn bản sang phải cho cột "Đơn giá" và "Tổng cộng" */
+}
