@@ -1,45 +1,45 @@
 @mixin transition {
-    transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 @mixin transition_secondary {
-    -webkit-transition: -webkit-transform 1.2s ease-in-out;
-    -o-transition: -o-transform 1.2s ease-in-out;
-    transition: transform 1.2s ease-in-out;
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+  -o-transition: -o-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
 }
 
 @mixin small_mobile() {
-    @media #{$small-mobile}{
-        @content;
-    }
+  @media #{$small-mobile} {
+    @content;
+  }
 }
 
 @mixin mobile() {
-    @media #{$mobile}{
-        @content;
-    }
+  @media #{$mobile} {
+    @content;
+  }
 }
 
 @mixin tablet() {
-    @media #{$tablet}{
-        @content;
-    }
+  @media #{$tablet} {
+    @content;
+  }
 }
 
 @mixin moblet() {
-    @media #{$moblet}{
-        @content;
-    }
+  @media #{$moblet} {
+    @content;
+  }
 }
 
 @mixin desktop() {
-    @media #{$desktop}{
-        @content;
-    }
+  @media #{$desktop} {
+    @content;
+  }
 }
 
 @mixin largeDesktop() {
-    @media #{$large-desktop}{
-        @content;
-    }
+  @media #{$large-desktop} {
+    @content;
+  }
 }
