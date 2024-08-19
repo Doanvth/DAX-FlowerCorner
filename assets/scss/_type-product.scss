@@ -1,0 +1,173 @@
+.logo-main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-main p {
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 6px;
+  margin-bottom: 0;
+  color: #ff3b3d;
+  font-weight: 600;
+}
+
+.type-flower {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+}
+
+.logo-main .type-flower h1 {
+  font-size: 32px;
+  text-align: center !important;
+  border-bottom: 2px solid #e91e63;
+  display: inline-block;
+  margin: 8px 0;
+  font-weight: 400;
+}
+
+.product-control {
+  margin-top: 10px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border: 1px solid #ddd;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.button-group {
+  display: block;
+  align-items: flex-start;
+  left: 0;
+  display: block !important;
+  flex: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.button-group i {
+  font-size: 20px;
+}
+
+.general-sort {
+  display: flex;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group label {
+  margin-right: 1px;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  padding: 6px 12px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #212529;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.input-group select {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  text-align: left;
+  padding: 7px 50px 7px 10px;
+}
+
+.cbo-1 {
+  margin-right: 20px;
+}
+
+.main-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-2 {
+  border-bottom: 1px solid rgba(79, 79, 79, 0.2);
+}
+
+.col-details {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.bg-3 {
+  padding-bottom: 30px;
+}
+
+.info-birthday {
+  text-align: justify;
+}
+
+.info-birthday h2 {
+  font-size: 21px;
+  color: #444;
+  margin-top: 15px;
+}
+
+.info-birthday img {
+  display: block;
+  width: 600px;
+  height: 600px;
+  margin: 20px auto;
+}
+
+.info-birthday .advertise-img-small {
+  height: 400px;
+}
+
+.info-birthday .advertise-img {
+  height: 750px;
+}
+
+.description-img {
+  text-align: center;
+}
+
+.info-birthday em {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+}
+
+.info-birthday p {
+  font-weight: 350;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: auto;
+  text-align: left !important;
+}
+
+.info-birthday .color-pink-bold {
+  font-weight: 350 !important;
+}
+
+.info-birthday .color-pink {
+  font-weight: 400 !important;
+}
+
+.info-birthday .bold {
+  font-weight: bold !important;
+}

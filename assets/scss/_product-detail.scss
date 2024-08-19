@@ -1,0 +1,297 @@
+.rcm-products {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rcm-products h2 {
+  font-size: 21px;
+  color: #444;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.row {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.re {
+  width: 100%;
+  height: auto;
+}
+
+.related-products {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 5px; */
+  margin: 5px;
+  padding-top: 3px;
+}
+
+.related-products img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
+
+.related-products img:hover {
+  transform: scale(1.1);
+}
+
+.cont {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.col-left {
+  padding: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px !important;
+  border: 1px solid #ccc;
+}
+
+.col-left,
+.col-right {
+  width: 49%;
+}
+
+.col-right {
+  margin-left: 15px;
+}
+
+.product-image {
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-size: 26px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.product-price {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 5px;
+  border-top: 1px solid rgba(79, 79, 79, 0.2);
+  border-bottom: 1px solid rgba(79, 79, 79, 0.2);
+  padding-top: 5px;
+}
+
+.product-price li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.old-price,
+.new-price {
+  font-weight: 500;
+  font-size: 21px !important;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #696969;
+}
+
+.new-price {
+  color: #e91e63;
+  font-weight: 500;
+}
+
+.sale-percent {
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 7px;
+}
+
+.coupon,
+.hotline-numbers,
+.social-contact,
+.notice-ship,
+.shop-featured {
+  margin-top: 20px;
+}
+
+.coupon-ticket {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 2px 10px;
+  border: 1px dashed #dc1b57;
+  color: #dc1b57;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: #ffe1e1;
+  font-size: 14px;
+}
+
+.call-us {
+  background-color: #ffe1e1;
+  color: #dc1b57;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 22px;
+}
+
+.social-contact a {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.social-contact img {
+  width: 36px;
+  height: 36px;
+  border-radius: 90px;
+}
+
+.address-ship-box:not(.shipping-fee) {
+  display: flex;
+}
+
+.cbo-city,
+.cbo-district {
+  width: 50%;
+}
+
+.cbo-city select,
+.cbo-district select {
+  width: 260px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.shipping-fee {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.quantity-buy {
+  margin-top: 10px;
+}
+
+.order-quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-quantity input {
+  width: 50px;
+  height: 43.31px;
+  padding: 5.6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  outline: none;
+  margin-right: 10px;
+}
+
+.btn-order,
+.btn-fast-order {
+  width: 136.73px;
+  height: 41.59px;
+  color: white;
+  border: none;
+  padding: 8px 28px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px !important;
+  text-shadow: none;
+}
+
+.btn-order {
+  background: orange;
+  border: 2px solid orange;
+  margin-right: 10px;
+}
+
+.btn-fast-order {
+  background: #e55f00;
+  border: 2px solid #e55f00;
+}
+
+.shop-featured {
+  display: flex;
+}
+
+.featured-item {
+  width: 50%;
+  padding-right: 15px;
+}
+
+.featured-item img {
+  max-width: 64px;
+  width: 35%;
+  vertical-align: middle;
+}
+
+.featured-item span {
+  vertical-align: middle;
+  width: 63%;
+  display: inline-block;
+}
+
+.product-description {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.product-description p,
+.product-description ul {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.nav-tabs {
+  margin-bottom: 15px;
+  margin-left: 22px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.tab-description {
+  margin-left: 22px;
+}
+
+.rcm-products {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
