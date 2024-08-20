@@ -1,46 +1,9 @@
-@import 'variable';
-@import 'mixin';
+@import "variable";
+@import "mixin";
 
 body {
-    font-family: $font-family-primary;
-    font-size: $font-size;
-    color: $color-text;
-    line-height: 1.4rem;
-}
-
-.btn-buynow {
-  padding: 20px;
-  color: $color-main;
-
-  @include small_mobile();
-  @extent;
-}
-
-header {
-  background-color: aqua;
-
-  .btn-red {
-    color: $color-main;
-  }
-}
-
-section1 {
-  h1 {
-    color: aquamarine;
-  }
-}
-
-h2 {
-  color: black;
-}
-
-section2 {
-  h1 {
-    color: rgb(229, 132, 67);
-  }
-
-  text-color {
-    @extend h2;
-    padding: 10px;
-  }
+  font-family: $font-family-primary;
+  font-size: $font-size;
+  color: $color-text;
+  line-height: 1.4rem;
 }
