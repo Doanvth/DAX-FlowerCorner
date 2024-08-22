@@ -1,11 +1,18 @@
+// Thêm sự kiện khi trang tải xong
+document.addEventListener("DOMContentLoaded", function () {
+  updateCartTable(); // Cập nhật bảng giỏ hàng khi trang tải xong
+  updateCart(); // Cập nhật cả dropdown giỏ hàng khi tải trang
+  updateCartCount(); // Cập nhật số lượng hiển thị trên biểu tượng giỏ hàng khi tải trang
+});
+
 // Cập nhật số lượng sản phẩm
-function updateQuantity(productName) {
+function updateQuantity(productName, delta) {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
   let product = cart.find((item) => item.name === productName);
 
   if (product) {
-    let newQuantity = document.getElementById(`quantity-${productName}`).value;
-    product.quantity = parseInt(newQuantity);
+    product.quantity += delta;
+    if (product.quantity < 1) product.quantity = 1; // Đảm bảo số lượng không nhỏ hơn 1
     localStorage.setItem("cart", JSON.stringify(cart));
     updateCartTable();
     updateCart(); // Cập nhật cả dropdown giỏ hàng
@@ -52,48 +59,43 @@ function updateCartTable() {
     // Tạo ô cho số lượng và các nút
     let quantityCell = document.createElement("td");
     let quantityContainer = document.createElement("div");
-    quantityContainer.className = "quantity-container";
+    quantityContainer.className = "quantity-controls";
 
-    let quantityInput = document.createElement("input");
-    quantityInput.type = "number";
-    quantityInput.id = `quantity-${item.name}`;
-    quantityInput.value = item.quantity;
-    quantityInput.min = "1";
-
-    let updateBtn = document.createElement("button");
-    updateBtn.className = "btn btn-success btn-sm";
-    updateBtn.innerHTML = '<i class="fa-solid fa-rotate"></i>';
-    updateBtn.addEventListener("click", function () {
-      item.quantity = parseInt(quantityInput.value);
-      localStorage.setItem("cart", JSON.stringify(cart));
-      updateCartTable();
-      updateCart(); // Cập nhật cả dropdown giỏ hàng
-      updateCartCount(); // Cập nhật số lượng hiển thị trên biểu tượng giỏ hàng
+    let decreaseBtn = document.createElement("button");
+    decreaseBtn.className = "btn btn-light decrease-qty";
+    decreaseBtn.innerHTML = "-";
+    decreaseBtn.addEventListener("click", function () {
+      updateQuantity(item.name, -1);
     });
 
-    let deleteBtn = document.createElement("button");
-    deleteBtn.className = "btn btn-danger btn-sm";
-    deleteBtn.innerHTML = '<i class="fa-solid fa-circle-xmark"></i>';
-    deleteBtn.addEventListener("click", function () {
-      cart = cart.filter((cartItem) => cartItem.name !== item.name);
-      localStorage.setItem("cart", JSON.stringify(cart));
-      updateCartTable();
-      updateCart(); // Cập nhật cả dropdown giỏ hàng
-      updateCartCount(); // Cập nhật số lượng hiển thị trên biểu tượng giỏ hàng
+    let quantityInput = document.createElement("input");
+    quantityInput.type = "text";
+    quantityInput.className = "form-control qty-input";
+    quantityInput.value = item.quantity;
+    quantityInput.readOnly = true;
+
+    let increaseBtn = document.createElement("button");
+    increaseBtn.className = "btn btn-light increase-qty";
+    increaseBtn.innerHTML = "+";
+    increaseBtn.addEventListener("click", function () {
+      updateQuantity(item.name, 1);
     });
 
     // Thêm các phần tử vào container số lượng
+    quantityContainer.appendChild(decreaseBtn);
     quantityContainer.appendChild(quantityInput);
-    quantityContainer.appendChild(updateBtn);
-    quantityContainer.appendChild(deleteBtn);
+    quantityContainer.appendChild(increaseBtn);
     quantityCell.appendChild(quantityContainer);
 
     // Tạo ô cho giá sản phẩm
     let priceCell = document.createElement("td");
+    priceCell.style.textAlign = "right";
     priceCell.textContent = item.price.toLocaleString("vi-VN") + " VND";
 
     // Tạo ô cho tổng cộng
     let totalCell = document.createElement("td");
+    totalCell.style.textAlign = "right";
+    totalCell.className = "product-total";
     totalCell.textContent = total.toLocaleString("vi-VN") + " VND";
 
     // Thêm các ô vào hàng
@@ -107,21 +109,42 @@ function updateCartTable() {
     cartTableBody.appendChild(row);
   });
 
-  document.getElementById(
-    "sub-total"
-  ).innerHTML = `<span style="text-align: right; display: block;">${subTotal.toLocaleString(
-    "vi-VN"
-  )} VND</span>`;
-  document.getElementById(
-    "total"
-  ).innerHTML = `<span style="text-align: right; display: block;">${subTotal.toLocaleString(
-    "vi-VN"
-  )} VND</span>`;
+  // Cập nhật tổng phụ và tổng cộng
+  document.getElementById("sub-total").innerText = subTotal.toLocaleString("vi-VN") + " VND";
+  document.getElementById("total").innerText = subTotal.toLocaleString("vi-VN") + " VND";
 }
 
-// Khi trang tải xong, cập nhật bảng giỏ hàng
-document.addEventListener("DOMContentLoaded", function () {
-  updateCartTable();
-  updateCart(); // Cập nhật cả dropdown giỏ hàng khi tải trang
-  updateCartCount(); // Cập nhật số lượng hiển thị trên biểu tượng giỏ hàng khi tải trang
-});
+// Cập nhật số lượng hiển thị trên biểu tượng giỏ hàng
+function updateCartCount() {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  let totalQuantity = cart.reduce((total, item) => total + item.quantity, 0);
+  document.querySelector(".mini-cart-count").innerText = totalQuantity;
+}
+
+// Cập nhật giỏ hàng hiển thị trong dropdown (nếu có)
+function updateCart() {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  let cartItems = document.getElementById("cart-items");
+  let cartTotal = document.getElementById("cart-total");
+  cartItems.innerHTML = "";
+  let total = 0;
+
+  cart.forEach((item) => {
+    total += item.price * item.quantity;
+    cartItems.innerHTML += `
+      <div class="cart-item">
+        <img src="${item.image}" alt="${item.name}">
+        <div class="item-info">
+          <p class="product-name">${item.name}</p>
+          <span class="product-count">x${item.quantity}</span>
+          <p class="item-price">${item.price.toLocaleString("vi-VN")} VND</p>
+        </div>
+        <div class="square-del">
+          <button onclick="removeFromCart('${item.name}')">X</button>
+        </div>
+      </div>
+    `;
+  });
+
+  cartTotal.innerHTML = `<strong>Tổng cộng:</strong> ${total.toLocaleString("vi-VN")} VND`;
+}
