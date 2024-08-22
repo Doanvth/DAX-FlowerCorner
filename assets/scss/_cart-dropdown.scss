@@ -161,3 +161,24 @@
 .square-del:hover {
   background-color: #d56079;
 }
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-controls .btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.quantity-controls .qty-input {
+  width: 50px;
+  text-align: center;
+  margin: 0 5px;
+}
