@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100 Bó hoa hồng đẹp tặng sinh nhật giá chỉ từ 250k</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu-main">
+        <div class="contact-numbers">HOTLINE: 1900 633 045 | 0865 160 360</div>
+        <div class="nav-items">
+          <i class="fa-solid fa-user" style="color: #4f4f4f"></i>Tài khoản
+          <i class="fa-solid fa-cart-shopping" style="color: #4f4f4f"></i>Giỏ
+          hàng <i class="fa-solid fa-share" style="color: #4f4f4f"></i>Thanh
+          toán
+        </div>
+      </div>
+    </header>
+
+    <div class="header-container">
+      <div class="social-media">
+        <a href="">
+          <i class="fa-brands fa-facebook fa-2xl" style="color: #3b5998"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter fa-2xl" style="color: #38a1f3"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-instagram fa-2xl" style="color: #cd486b"></i>
+        </a>
+      </div>
+
+      <div class="logo-shop">
+        <a href="index.html">
+          <img
+            src="https://www.flowercorner.vn/image/catalog/common/shop-hoa-tuoi-flowercorner-logo.png.webp"
+            title="FlowerCorner.vn - Shop hoa tươi"
+            alt="FlowerCorner.vn - Shop hoa tươi"
+            class="img-fluid"
+            width="300"
+            height="62"
+          />
+        </a>
+      </div>
+
+      <div class="purchase-bar">
+        <div class="search-bar">
+          <input type="text" placeholder="Tìm kiếm" class="text-control" />
+          <button type="button" class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="buy-bar">
+          <div class="buy-icon" onclick="toggleCartDropdown()">
+            <button type="button" class="btn btn-inverse btn-block">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+            <span id="cart-count" class="mini-cart-count">0</span>
+          </div>
+          <div id="cart-dropdown">
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+            <div class="cart-actions">
+              <a href="checkout.html" class="">
+                <i class="fa-solid fa-cart-shopping"></i> Giỏ hàng
+              </a>
+              <span class="line-cart">|</span>
+              <a href="checkout.html" class="">
+                <i class="fa-solid fa-share"></i> Thanh toán
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-menu">
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="hoa-sinh-nhat.html" class="drop">HOA SINH NHẬT</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HOA SINH NHẬT SANG TRỌNG</a></li>
+              <li><a href="#">HOA SINH NHẬT GIÁ RẺ</a></li>
+              <li><a href="#">HOA TẶNG SINH NHẬT NGƯỜI YÊU</a></li>
+              <li><a href="#">HOA TẶNG SINH NHẬT MẸ</a></li>
+              <li><a href="#">HOA TẶNG SINH NHẬT BẠN</a></li>
+              <li><a href="#">LẴNG HOA TẶNG SINH NHẬT</a></li>
+              <li><a href="#">HOA HỒNG TẶNG SINH NHẬT</a></li>
+              <li><a href="#">GIỎ HOA SINH NHẬT</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="hoa-khai-truong.html" class="drop">HOA KHAI TRƯƠNG</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HOA KHAI TRƯƠNG ĐỂ BÀN</a></li>
+              <li><a href="#">KỆ HOA KHAI TRƯƠNG</a></li>
+              <li><a href="#">KỆ HOA KHAI TRƯƠNG HIỆN ĐẠI</a></li>
+              <li><a href="#">HOA KHAI TRƯƠNG GIÁ RẺ</a></li>
+              <li><a href="#">LẴNG HOA 2 TẦNG MỪNG KHAI TRƯƠNG</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="lan-ho-diep.html" class="drop">LAN HỒ ĐIỆP</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">LAN HỒ ĐIỆP MINI</a></li>
+              <li><a href="#">LAN HỒ ĐIỆP VÀNG</a></li>
+              <li><a href="#">LAN HỒ ĐIỆP TRẮNG</a></li>
+              <li><a href="#">LAN HỒ ĐIỆP TÍM</a></li>
+              <li><a href="#">CHẬU LAN HỒ ĐIỆP 3 CÀNH</a></li>
+              <li><a href="#">CHẬU LAN HỒ ĐIỆP 5 CÀNH</a></li>
+              <li><a href="#">CHẬU LAN HỒ ĐIỆP 10 CÀNH</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="drop">CHỦ ĐỀ</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HOA CHÚC MỪNG</a></li>
+              <li><a href="#">HOA CƯỚI CẦM TAY</a></li>
+              <li><a href="#">HOA TANG LỄ - HOA CHIA BUỒN</a></li>
+              <li><a href="#">HOA TÌNH YÊU</a></li>
+              <li><a href="#">HOA VALENTINE</a></li>
+              <li><a href="#">HOA KỶ NIỆM NGÀY CƯỚI</a></li>
+              <li><a href="#">NGÀY CỦA MẸ</a></li>
+              <li><a href="#">HOA CHÚC MỪNG 8-3</a></li>
+              <li><a href="#">HOA CHÚC MỪNG 20-10</a></li>
+              <li><a href="#">NGÀY NHÀ GIÁO VN</a></li>
+              <li><a href="#">GIÁNG SINH</a></li>
+              <li><a href="#">TẾT ÂM LỊCH</a></li>
+              <li><a href="#">HOA TỐT NGHIỆP</a></li>
+              <li><a href="#">HOA ĐỊNH KỲ</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="drop">THIẾT KẾ</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">BÓ HOA</a></li>
+              <li><a href="#">LẴNG HOA</a></li>
+              <li><a href="#">GIỎ HOA</a></li>
+              <li><a href="#">KỆ HOA</a></li>
+              <li><a href="#">BÌNH HOA</a></li>
+              <li><a href="#">HỘP HOA</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="drop">HOA TƯƠI</a>
+            <ul class="dropdown-menu">
+              <li><a href="hoa-hong.html">HOA HỒNG</a></li>
+              <li><a href="#">HOA BABY</a></li>
+              <li><a href="#">HOA HƯỚNG DƯƠNG</a></li>
+              <li><a href="#">HOA LAN HỒ ĐIỆP</a></li>
+              <li><a href="#">HOA TULIP</a></li>
+              <li><a href="#">HOA CÚC TANA</a></li>
+              <li><a href="#">HOA THẠCH THẢO</a></li>
+              <li><a href="#">HOA MẪU ĐƠN</a></li>
+              <li><a href="#">CÚC MẪU ĐƠN</a></li>
+              <li><a href="#">HOA CẨM TÚ CẦU</a></li>
+              <li><a href="#">HOA LY</a></li>
+              <li><a href="#">HOA SEN</a></li>
+              <li><a href="#">HOA ĐỒNG TIỀN</a></li>
+              <li><a href="#">HOA CẨM CHƯỚNG</a></li>
+              <li><a href="#">HOA CÚC HỌA MI</a></li>
+            </ul>
+          </li>
+
+          <li><a href="hoa-tuoi-giam-gia.html">HOA TƯƠI GIẢM 30%</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="logo-main">
+      <p>
+        ĐẶT HOA ONLINE - GIAO MIỄN PHÍ TP HCM & HÀ NỘI - GỌI NGAY 1900 633 045
+        HOẶC 0865 160 360
+      </p>
+      <div class="type-flower">
+        <h1>Hoa Khai Trương</h1>
+      </div>
+      <div class="product-control">
+        <div class="button-group">
+          <i class="fa-solid fa-table-cells"></i>
+        </div>
+        <div class="general-sort">
+          <div class="sort-type cbo-1">
+            <div class="input-group">
+              <label for="input-type">Sắp xếp theo</label>
+              <select name="" id="input-type">
+                <option value="">Mặc định</option>
+                <option value="">Tên (A - Z)</option>
+                <option value="">Tên (Z - A)</option>
+                <option value="">Giá (Thấp> Cao)</option>
+                <option value="">Giá (Cao> Thấp)</option>
+                <option value="">Mô hình (A - Z)</option>
+                <option value="">Mô hình (Z - A)</option>
+              </select>
+            </div>
+          </div>
+          <div class="sort-type cbo-2">
+            <div class="input-group">
+              <label for="input-limit">Số lượng</label>
+              <select name="" id="input-limit">
+                <option value="">12</option>
+                <option value="">24</option>
+                <option value="">48</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="row list-products"></div>
+
+      <div class="row bg-2">
+        <div class="col-details">
+          <div class="pagination">
+            <a href="" class="active">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="">7</a>
+            <a href="">8</a>
+            <a href="">9</a>
+            <a href="">></a>
+            <a href="">>|</a>
+          </div>
+
+          <div class="quantity-products">
+            Hiển thị từ 1 đến 24 / 516 (22 Trang)
+          </div>
+        </div>
+      </div>
+
+      <div class="row bg-3">
+        <p>Bó hoa hồng đẹp tặng sinh nhật</p>
+        <div class="info-birthday">
+          <strong>Bó hoa hồng</strong> là lựa chọn hoàn hảo để gửi tặng vợ, bạn
+          gái hoặc cô bạn thân thiết nhân dịp sinh nhật, hay trong tất cả những
+          dịp đặc biệt khác. Không chỉ là loài hoa được hầu như tất cả mọi cô
+          nàng yêu thích, hoa hồng còn là biểu tượng của tình yêu, tình bạn, sắc
+          đẹp và sự thông minh.
+          <br />
+          <br />
+          Nếu bạn đang cần đặt một bó hoa hồng để gửi tặng người thân, tham khảo
+          ngay bộ sưu tập những mẫu
+          <strong class="color-pink bold">bó hoa hồng đẹp</strong> tặng sinh
+          nhật, tốt nghiệp được thiết kế bởi shop hoa tươi
+          <strong class="color-pink">FlowerCorner.vn</strong> nhé!
+
+          <h2>Tặng bó hoa hồng vào dịp nào</h2>
+          Một <u>bó hoa hồng</u> là lựa chọn hoàn hảo để làm quà tặng cho mọi
+          dịp đặc biệt trong năm như:
+
+          <h2>Sinh nhật</h2>
+          Hoa hồng là một trong những loài hoa được sử dụng nhiều nhất để gửi
+          tặng vợ, bạn gái, người thân hay bạn bè vào dịp sinh nhật.
+
+          <h2>Lễ tốt nghiệp</h2>
+          Một bó hoa hồng vàng hoặc hoa hồng kem là lựa chọn thích hợp để gửi
+          tặng con cái, anh chị hay cô bạn thân thiết nhân dịp lễ tốt nghiệp.
+          Hoa hồng kem tượng trưng cho sự khởi đầu mới may mắn, trong đó hoa
+          hồng vàng tượng trưng cho tình bạn chân thành.
+
+          <h2>Kỷ niệm ngày yêu - ngày cưới</h2>
+          Bạn sẽ chẳng thể tìm được loài hoa nào hoàn hảo hơn hoa hồng để gửi
+          tặng vợ, bạn gái vào dịp kỷ niêm ngày cưới hoặc ngày yêu nhau.
+
+          <h2>Nên chọn bó hoa hồng tặng sinh nhật ai?</h2>
+          Những bó hoa hồng là lựa chọn hoàn hảo để làm quà tặng cho bất cứ ai,
+          vào bất cứ dịp nào. Tuy nhiên, nếu tinh tế hơn một chút, bạn sẽ nhận
+          thấy rằng, không phải lúc nào bó hoa hồng cũng là lựa chọn hoàn hảo
+          nhất. Vậy, nên tặng bó hoa hồng cho ai?
+
+          <h2>Người yêu – bạn gái</h2>
+          <img
+            src="https://www.flowercorner.vn/image/catalog/products/August%202023/bo-hoa-hong-do-tang-ban-gai.jpg"
+            alt=""
+            class="advertise-img"
+          />
+          <span class="description-img">
+            <em>bó hoa hồng đỏ tặng sinh nhật bạn gái</em>
+          </span>
+          Nếu như lẵng hoa hồng phù hợp để tặng vợ, đối tác hay những người lớn
+          tuổi, thì những bó hoa hồng là lựa chọn hoàn hảo để tặng người yêu,
+          bạn gái. Bạn có thể chọn một bó hồng đỏ, hồng kem dâu hoặc hồng xanh
+          tùy thuộc vào mức độ trong mối quan hệ của bạn với nàng.
+          <br />
+          <br />
+
+          <h2>Người thân</h2>
+          Không chỉ là loài hoa của tình yêu, hoa hồng còn là loài hoa tượng
+          trưng cho sự biết ơn, khâm phục và vẻ đẹp hoàn hảo. Chính vì thế, hoa
+          hồng cũng là lựa chọn hoàn toàn phù hợp để gửi tặng mẹ, chị gái hay
+          những người thân trong gia đình nhân dịp sinh nhật.
+          <img
+            src="https://www.flowercorner.vn/image/catalog/products/August%202023/bo-hoa-hong-tang-sinh-nhat-ban-than.jpg"
+            alt=""
+            class="advertise-img"
+          />
+
+          <h2>Bạn bè, đồng nghiệp</h2>
+          Một bó hoa hồng cũng là lựa chọn cực kỳ phù hợp để gửi tặng cô bạn
+          thân trong bất cứ dịp đặc biệt nào.<strong class="color-pink"
+            >Bó hoa hồng vàng</strong
+          >
+          hoặc hồng cam luôn là lựa chọn tuyệt vời để gửi tới những người bạn
+          thân thiết, bởi đây là những màu sắc đại diện cho tình bạn chân thành,
+          gắn bó.
+          <img
+            src="https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-hong-vang-uom-nang.jpg.webp"
+            alt=""
+            class="advertise-img"
+          />
+          Những bó hồng nhỏ xinh sẽ là sự lựa chọn phù hợp để gửi tặng đồng
+          nghiệp nhân dịp <strong class="color-pink">sinh nhật</strong> hay
+          trong buổi tiệc chia tay. Bạn nên lựa chọn một bó hoa hồng vàng, kem
+          dâu hoặc hồng hồng bởi đây là những màu sắc giúp bạn gửi đi lời chúc
+          “Một khởi đầu mới thành công và may mắn”.
+          <br />
+          <br />
+          Tất nhiên, bạn không bắt buộc phải lựa chọn những bó hoa hồng để tặng
+          người yêu, bạn thân hay đồng nghiệp. Bạn vẫn có thể lựa chọn một lẵng
+          hoa hồng nếu muốn. Tuy vậy, chọn đúng kiểu hoa và tặng cho đúng người
+          không những giúp bạn ghi điểm trong mắt họ bởi sự tinh tế, mà còn giúp
+          bạn tiết kiệm hơn nữa đấy.
+          <br />
+          <br />
+          >> Xem ngay: Những mẫu
+
+          <h2>Ý nghĩa số lượng hoa trong bó hoa hồng</h2>
+          <img
+            src="https://www.flowercorner.vn/image/catalog/products/August%202023/y-nghia-so-luong-hoa-hong.jpg"
+            alt=""
+            class="advertise-img"
+          />
+          Khi lựa chọn một bó hoa hồng để tặng bạn gái, bên cạnh màu sắc thì bạn
+          cũng cần chú ý đến số lượng bông hoa hồng trong bó hoa, bởi mỗi số
+          lượng khác nhau cũng ẩn chứa những thông điệp khác nhau. Dưới đây là ý
+          nghĩa và số lượng bông hồng được nhiều người lựa chọn nhất để tặng bạn
+          gái.
+          <p>
+            <strong>Bó 1 bông hồng</strong>: Em là duy nhất. Trái tim anh chỉ có
+            mình em.
+            <br />
+            <strong>Bó 9 bông hồng</strong>: Tình yêu bất diệt.
+            <br />
+            <strong>Bó 10 bông hồng</strong>: Em thật hoàn hảo.
+            <br />
+            <strong>Bó 11 bông hồng</strong>: Em là tất cả những gì quý giá nhất
+            đối với anh.
+            <br />
+            <strong>Bó 12 hoa hồng</strong>: Tình yêu của anh nối dài theo năm
+            tháng.
+            <br />
+            <strong>Bó 20 bông hồng</strong>: Tình yêu chân thành/hãy luôn tin
+            tưởng ở anh.
+            <br />
+            <strong>Bó 24 hoa hồng</strong>: Em luôn ở trong tâm trí anh. Mỗi
+            giây phút trôi qua anh đều nghĩ về em.
+            <br />
+            <strong>Bó 50 hoa hồng</strong>: Anh yêu em vô điều kiện và không
+            bao giờ hối hận
+            <br />
+            <strong>Bó 99 hoa hồng</strong>: Tình yêu vĩnh cửu.
+            <br />
+            <strong>Bó 100 hoa hồng</strong>: Tình yêu hoàn hảo, trọn vẹn.
+          </p>
+          Ý nghĩa số lượng bông hồng này chỉ dành riêng cho các cặp tình nhân.
+          Nếu bạn lựa chọn một bó hồng để tặng người thân, bạn bè hay đồng
+          nghiệp thì không nhất thiết phải quan tâm đến số lượng bông hoa trong
+          bó hoa.
+          <br />
+          <br />
+          Khi chọn bó hoa hồng tặng người thân, bạn bè thì thông thường sẽ lựa
+          chọn số lượng 10, 12 hoặc 24 bông hồng.
+          <br />
+          <h2>Đặt bó hoa hồng ở đâu?</h2>
+          Nếu bạn đang cần đặt một bó hoa hồng để gửi tặng vợ, bạn gái hay những
+          người thân yêu thì FlowerCorner.vn là sự lựa chọn hoàn hảo dành cho
+          bạn. Flowercorner.vn là shop hoa tươi uy tín tại TP HCM cung cấp dịch
+          vụ đặt hoa online giao tận nơi trên khắp Việt Nam. Với hơn 5 năm hoạt
+          động trong lĩnh vực điện hoa, Flowercorner.vn đã giúp hàng chục ngàn
+          khách hàng gửi tặng hoa tươi tới người thân trong những dịp đặc biệt.
+          Tại Flowercorner.vn, bạn có thể dễ dàng lựa chọn một bó hoa hồng xinh
+          đẹp trong bộ sưu tập hơn 100+ bó hoa hồng đẹp với mức giá chỉ từ 300k.
+          <br />
+          <br />
+          Ngoài những mẫu hoa được thiết kế sẵn trên website, FlowerCorner.vn
+          cũng nhận thiết kế bó hoa hồng theo yêu cầu của khách hàng với mức giá
+          hợp lý.
+          <br />
+          <h2>Tại sao nên đặt hoa tại Flowercorner.vn?</h2>
+          <img
+            src="https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-hong-do-nhap-khau-01.jpg.webp"
+            alt=""
+            class="advertise-img"
+          />
+          Hoa hồng là loài hoa quen thuộc được bán rất nhiều tại Việt Nam. Bạn
+          có thể dễ dàng đặt một <u>bó hoa hồng</u> ở bất cứ tiệm hoa tươi nào
+          tại TP HCM. Vậy, tại sao bạn nên chọn FlowerCorner.vn?
+          <br />
+          <br />
+          <strong>Chất lượng vượt trội</strong>: Flowercorner.vn cam kết chỉ sử
+          dụng các loại hoa hồng chất lượng cao nhất cho các sản phẩm của mình.
+          Đặc biệt, tất cả các mẫu
+          <strong class="color-pink">bó hoa hồng đỏ</strong> tại Flowercorner.vn
+          đều đang sử dụng hoa hồng French Red, một giống hoa hồng ngoại được
+          trồng tại Đà Lạt với kích thước bông lớn hơn 1.5-2 lần so với hoa hồng
+          đỏ thường. Chính điều này đã tạo nên sự khác biệt cho các sản phẩm của
+          FlowerCorner.vn.
+          <br />
+          <br />
+          <strong>Hoa đẹp như hình</strong>: Một trong những nỗi lo lớn nhất của
+          khách hàng khi đặt hoa online là hoa thực tế không giống như hình trên
+          web. Với FlowerCorner.vn, bạn hoàn toàn có thể yên tâm về vấn đề này.
+          <br />
+          <br />
+          Flowercorner.vn cam kết hình ảnh bó hoa ngoài thực tế sẽ giống ít nhất
+          80% so với hình mẫu. Sau khi hoa được làm xong, FlowerCorner.vn sẽ gửi
+          hình hoa thực tế để khách hàng duyệt trước khi giao hoa cho người
+          nhận.
+          <br />
+          <br />
+          <strong>Giao hoa đúng giờ</strong>: Giao hoa đúng giờ là một trong
+          những tiêu chí hàng đầu của Flowercorner.vn. FlowerCorner.vn cam kết
+          giao hoa đúng giờ mà khách hàng đã đặt trước. FlowerCorner.vn sẽ chịu
+          mọi trách nhiệm trong trường hợp giao hoa trễ giờ mà khách hàng đã
+          đặt.
+          <br />
+          <br />
+          Đặc biệt, dịch vụ đặt hoa online giao tận nơi trong 60 phút của
+          FlowerCorner.vn cũng sẽ giúp bạn nhanh chóng gửi tặng một bó hoa hồng
+          tới người thân, bạn bè vào những dịp đặc biệt.
+          <br />
+          <h2>Ưu đãi khi đặt hoa tại Flowercorner.vn</h2>
+          Bên cạnh đó, khi đặt bó hoa hồng tại FlowerCorner.vn, bạn sẽ nhận được
+          nhiều ưu đãi hấp dẫn:
+          <br />
+          <br />
+          <ul>
+            <li>Giảm đến 50k cho khách hàng mới.</li>
+            <li>Giảm đến 10% cho khách hàng thân thiết.</li>
+            <li>Giao hoa tận nơi Miễn Phí – Giao hoa nhanh trong 60 phút.</li>
+            <li>Tặng kèm thiệp hoặc banner chúc mừng.</li>
+          </ul>
+          <h2>Các loại hoa hồng tại FlowerCorner.vn</h2>
+          Bên cạnh các loài hoa hồng nội địa được trồng tại Đà Lạt,
+          FlowerCorner.vn cũng cung cấp các loại hoa hồng ngoại nhập khẩu gồm.
+          <br />
+          <br />
+          <ul>
+            <li>Hoa hồng Ecuador</li>
+            <li>Hoa hồng Juliet</li>
+            <li>Hoa hồng Ohara</li>
+            <li>Hoa hồng Cappuccino</li>
+          </ul>
+          Gọi ngay 1900 633 045 hoặc chat với nhân viên của FlowerCorner.vn để
+          đặt hoa hoặc được tư vấn lựa chọn một bó hoa hồng thật xinh tặng sinh
+          nhật những người thương yêu nhất của bạn nhé!
+          <br />
+          <br />
+          >> Xem thêm: 100+
+          <strong class="color-pink">lẵng hoa hồng</strong> đẹp mừng khai
+          trương, sinh nhật
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="info-download">
+          <img
+            src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/shop-hoa-tuoi-flowercorner-logo.png.webp"
+            alt=""
+          />
+          Hotline: 1900 633 045 - 0865 160 360 Email: sales@flowercorner.vn
+          <div class="download-app">
+            <div class="qr-code">
+              <img
+                src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/app/qr.png.webp"
+                alt="quét để tải app FlowerCorner"
+              />
+            </div>
+            <div class="store-link">
+              Tải ứng dụng ngay!
+              <div class="store-img">
+                <img
+                  src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/app/appstore.png.webp"
+                  alt="FlowerCorner trên app store"
+                />
+                <img
+                  src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/app/gplay.png.webp"
+                  alt="FlowerCorner trên Google play"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="notice-bct">
+            <img
+              src="https://8384f55340.vws.vegacdn.vn/image/catalog/common/app/logoSaleNoti.png.webp"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="info-support">
+          <h5>CHĂM SÓC KHÁCH HÀNG</h5>
+          <p class="danhmuc">
+            <a href="gioi-thieu.html" class="color-grey">Giới thiệu</a>
+          </p>
+          <p class="danhmuc">
+            <a href="lien-he.html" class="color-grey">Liên Hệ</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Chính Sách Vận Chuyển</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Câu Hỏi Thường Gặp</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Hình Thức Thanh Toán</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Bảo Mật Thông Tin</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Chính Sách Hoàn Tiền</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Xử Lý Khiếu Nại</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Tại Sao Nên Chọn FlowerCorner.vn</a>
+          </p>
+          <p class="danhmuc">
+            <a href="#" class="color-grey">Blog</a>
+          </p>
+        </div>
+
+        <div class="info-media">
+          <h5>THEO DÕI</h5>
+          <div class="mxh">
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook</a
+              >
+            </p>
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-twitter-square"></i>
+                Twitter</a
+              >
+            </p>
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram</a
+              >
+            </p>
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-linkedin"></i>
+                Linkedin</a
+              >
+            </p>
+            <p>
+              <a href="#" class="color-grey">
+                <i class="fa-brands fa-youtube"></i>
+                Youtube</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="info-address">
+          <h5>SHOP HOA FLOWERCORNER</h5>
+          <div class="address">
+            <p>
+              <strong>Cửa hàng chính</strong>:
+              <a href="#" class="color-grey"
+                >142 Nguyễn Văn Cừ, Phường Nguyễn Cư Trinh, Quận 1, TP.HCM</a
+              >
+            </p>
+            <p>
+              <strong>Chi nhánh TP.HCM</strong>:
+              <a href="#" class="color-grey"
+                >225/3 Nguyễn Đình Chiểu, Phường 5, Quận 3, TP.HCM</a
+              >
+            </p>
+            <p>
+              <strong>Chi nhánh Hà Nội</strong>:
+              <a href="#" class="color-grey">65 Trần Phú, Ba Đình, Hà Nội</a>
+            </p>
+            <p>
+              CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ ZAS
+              <br />
+              Mã số thuế: 0313630426
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-bar">
+          <div class="contact-numberphone">
+            <i class="fa-solid fa-phone-volume" style="color: #ffffff"></i>
+            <span>091 849 1941</span>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="contact-zalo">
+            <img src="img/icons8-zalo-50 (1).png" alt="" />
+            <span>Nhắn tin zalo</span>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="contact-numberphone">
+            <i class="fa-solid fa-phone-volume" style="color: #ffffff"></i>
+            <span>086 516 0360</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/product-hoa-hong.js"></script>
+    <script src="js/nav-menu-fixed.js"></script>
+    <script src="js/cart-drop-down.js"></script>
+  </body>
+</html>
