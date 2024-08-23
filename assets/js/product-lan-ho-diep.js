@@ -169,78 +169,104 @@ let products = [
   },
 ];
 
-var p = "";
-for (var i = 0; i < products.length; i++) {
-  if (products[i].sale > 0 && products[i].oldPrice !== "") {
-    p += `
-          <div class="col-lg-3">
-              <div class="card product" style="width: 18rem">
-                  <a href="chi-tiet-san-pham.html" onclick="viewProductDetails('${
-                    products[i].name
-                  }')">
-                      <img src="${products[i].img}" class="card-img-top" alt="${
-      products[i].name
-    }" />
-                  </a>
-                  <div class="icon-bar">
-                      <i class="fas fa-heart"></i>
-                      <i class="fas fa-plus"></i>
-                      <i class="fas fa-cart-shopping"></i>
-                      <i class="fas fa-sync-alt"></i>
-                  </div>
-                  <span class="sale">${products[i].sale}%<br />GIẢM</span>
-                  <div class="card-body">
-                      <h5 class="card-title text-center product-name">${
-                        products[i].name
-                      }</h5>
-                      <p class="card-text text-center">
-                          <span class="price-new">${products[i].newPrice}</span>
-                          <span class="price-old">${products[i].oldPrice}</span>
-                      </p>
-                      <a href="#" class="btn btn-primary" onclick="addToCart('${
-                        products[i].name
-                      }', ${parseInt(products[i].newPrice)}, '${
-      products[i].img
-    }')">ĐẶT HÀNG</a>
-                  </div>
-              </div>
-          </div>`;
-  } else if (products[i].sale == 0 && products[i].oldPrice == "") {
-    p += `
-          <div class="col-lg-3">
-              <div class="card product" style="width: 18rem">
-                  <a href="chi-tiet-san-pham.html" onclick="viewProductDetails('${
-                    products[i].name
-                  }')">
-                      <img src="${products[i].img}" class="card-img-top" alt="${
-      products[i].name
-    }" />
-                  </a>
-                  <div class="icon-bar">
-                      <i class="fas fa-heart"></i>
-                      <i class="fas fa-plus"></i>
-                      <i class="fas fa-cart-shopping"></i>
-                      <i class="fas fa-sync-alt"></i>
-                  </div>
-                  <div class="card-body">
-                      <h5 class="card-title text-center product-name">${
-                        products[i].name
-                      }</h5>
-                      <p class="card-text text-center">
-                          <span class="price-new">${products[i].newPrice}</span>
-                      </p>
-                      <a href="#" class="btn btn-primary" onclick="addToCart('${
-                        products[i].name
-                      }', ${parseInt(products[i].newPrice)}, '${
-      products[i].img
-    }')">ĐẶT HÀNG</a>
-                  </div>
-              </div>
-          </div>`;
+const itemsPerPage = 8; // Số sản phẩm mỗi trang
+const totalProducts = products.length;
+const totalPages = Math.ceil(totalProducts / itemsPerPage);
+let currentPage = 1;
+
+function renderProducts(page) {
+  const startIndex = (page - 1) * itemsPerPage;
+  const endIndex = Math.min(startIndex + itemsPerPage, totalProducts);
+  
+  let p = "";
+  for (let i = startIndex; i < endIndex; i++) {
+    if (products[i].sale > 0 && products[i].oldPrice !== "") {
+      p += `
+        <div class="col-lg-3">
+            <div class="card product" style="width: 18rem">
+                <a href="chi-tiet-san-pham.html" onclick="viewProductDetails('${products[i].name}')">
+                    <img src="${products[i].img}" class="card-img-top" alt="${products[i].name}" />
+                </a>
+                <div class="icon-bar">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-cart-shopping"></i>
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <span class="sale">${products[i].sale}%<br />GIẢM</span>
+                <div class="card-body">
+                    <h5 class="card-title text-center product-name">${products[i].name}</h5>
+                    <p class="card-text text-center">
+                        <span class="price-new">${products[i].newPrice}</span>
+                        <span class="price-old">${products[i].oldPrice}</span>
+                    </p>
+                    <a href="#" class="btn btn-primary" onclick="addToCart('${products[i].name}', ${parseInt(products[i].newPrice)}, '${products[i].img}')">ĐẶT HÀNG</a>
+                </div>
+            </div>
+        </div>`;
+    } else if (products[i].sale == 0 && products[i].oldPrice == "") {
+      p += `
+        <div class="col-lg-3">
+            <div class="card product" style="width: 18rem">
+                <a href="chi-tiet-san-pham.html" onclick="viewProductDetails('${products[i].name}')">
+                    <img src="${products[i].img}" class="card-img-top" alt="${products[i].name}" />
+                </a>
+                <div class="icon-bar">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-cart-shopping"></i>
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center product-name">${products[i].name}</h5>
+                    <p class="card-text text-center">
+                        <span class="price-new">${products[i].newPrice}</span>
+                    </p>
+                    <a href="#" class="btn btn-primary" onclick="addToCart('${products[i].name}', ${parseInt(products[i].newPrice)}, '${products[i].img}')">ĐẶT HÀNG</a>
+                </div>
+            </div>
+        </div>`;
+    }
+  }
+
+  document.querySelector(".list-products").innerHTML = p;
+  updatePagination();
+  updateQuantityInfo();
+}
+
+function updatePagination() {
+  const pagination = document.querySelector(".pagination");
+  pagination.innerHTML = "";
+
+  if (currentPage > 1) {
+    pagination.innerHTML += `<a href="#" onclick="changePage(1)">|&lt;</a>`;
+    pagination.innerHTML += `<a href="#" onclick="changePage(${currentPage - 1})">&lt;</a>`;
+  }
+
+  for (let i = 1; i <= totalPages; i++) {
+    pagination.innerHTML += `
+      <a href="#" class="${i === currentPage ? 'active' : ''}" onclick="changePage(${i})">${i}</a>
+    `;
+  }
+
+  if (currentPage < totalPages) {
+    pagination.innerHTML += `<a href="#" onclick="changePage(${currentPage + 1})">&gt;</a>`;
+    pagination.innerHTML += `<a href="#" onclick="changePage(${totalPages})">&gt;|</a>`;
   }
 }
 
-document.querySelector(".list-products").innerHTML = p;
+function updateQuantityInfo() {
+  document.querySelector(".quantity-products").innerHTML = `Hiển thị từ ${(currentPage - 1) * itemsPerPage + 1} đến ${Math.min(currentPage * itemsPerPage, totalProducts)} / ${totalProducts} (${totalPages} Trang)`;
+}
+
+function changePage(page) {
+  if (page < 1 || page > totalPages) return;
+  currentPage = page;
+  renderProducts(currentPage);
+}
+
+// Khởi động trang đầu tiên
+renderProducts(currentPage);
 
 // Hàm xử lý liên kết chi tiết sản phẩm
 function viewProductDetails(productName) {
