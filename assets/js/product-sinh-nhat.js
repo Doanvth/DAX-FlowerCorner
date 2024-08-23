@@ -304,9 +304,9 @@ for (var i = 0; i < products.length; i++) {
                       </p>
                       <a href="#" class="btn btn-primary" onclick="addToCart('${
                         products[i].name
-                      }', ${parseFloat(
-      products[i].newPrice.replace(/[^0-9.-]+/g, "")
-    )}, '${products[i].img}')">ĐẶT HÀNG</a>
+                      }', ${parseInt(products[i].newPrice)}, '${
+      products[i].img
+    }')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
@@ -336,16 +336,17 @@ for (var i = 0; i < products.length; i++) {
                       </p>
                       <a href="#" class="btn btn-primary" onclick="addToCart('${
                         products[i].name
-                      }', ${parseFloat(
-      products[i].newPrice.replace(/[^0-9.-]+/g, "")
-    )}, '${products[i].img}')">ĐẶT HÀNG</a>
+                      }', ${parseInt(products[i].newPrice)}, '${
+      products[i].img
+    }')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
   }
 }
 
-document.querySelector(".list-products").innerHTML = p;
+// Khởi tạo trang đầu tiên
+goToPage(1);
 
 // Hàm xử lý liên kết chi tiết sản phẩm
 function viewProductDetails(productName) {

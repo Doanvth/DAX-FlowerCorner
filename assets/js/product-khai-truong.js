@@ -376,9 +376,9 @@ for (var i = 0; i < products.length; i++) {
                       </p>
                       <a href="#" class="btn btn-primary" onclick="addToCart('${
                         products[i].name
-                      }', ${parseFloat(
-      products[i].newPrice.replace(/[^0-9.-]+/g, "")
-    )}, '${products[i].img}')">ĐẶT HÀNG</a>
+                      }', ${parseInt(products[i].newPrice)}, '${
+      products[i].img
+    }')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
@@ -408,16 +408,53 @@ for (var i = 0; i < products.length; i++) {
                       </p>
                       <a href="#" class="btn btn-primary" onclick="addToCart('${
                         products[i].name
-                      }', ${parseFloat(
-      products[i].newPrice.replace(/[^0-9.-]+/g, "")
-    )}, '${products[i].img}')">ĐẶT HÀNG</a>
+                      }', ${parseInt(products[i].newPrice)}, '${
+      products[i].img
+    }')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
   }
 }
 
-document.querySelector(".list-products").innerHTML = p;
+  document.querySelector(".list-products").innerHTML = p;
+  updatePagination();
+  updateQuantityInfo();
+}
+
+function updatePagination() {
+  const pagination = document.querySelector(".pagination");
+  pagination.innerHTML = "";
+
+  if (currentPage > 1) {
+    pagination.innerHTML += `<a href="#" onclick="changePage(1)">|&lt;</a>`;
+    pagination.innerHTML += `<a href="#" onclick="changePage(${currentPage - 1})">&lt;</a>`;
+  }
+
+  for (let i = 1; i <= totalPages; i++) {
+    pagination.innerHTML += `
+      <a href="#" class="${i === currentPage ? 'active' : ''}" onclick="changePage(${i})">${i}</a>
+    `;
+  }
+
+  if (currentPage < totalPages) {
+    pagination.innerHTML += `<a href="#" onclick="changePage(${currentPage + 1})">&gt;</a>`;
+    pagination.innerHTML += `<a href="#" onclick="changePage(${totalPages})">&gt;|</a>`;
+  }
+}
+
+function updateQuantityInfo() {
+  document.querySelector(".quantity-products").innerHTML = `Hiển thị từ ${(currentPage - 1) * itemsPerPage + 1} đến ${Math.min(currentPage * itemsPerPage, totalProducts)} / ${totalProducts} (${totalPages} Trang)`;
+}
+
+function changePage(page) {
+  if (page < 1 || page > totalPages) return;
+  currentPage = page;
+  renderProducts(currentPage);
+}
+
+// Khởi động trang đầu tiên
+renderProducts(currentPage);
 
 // Hàm xử lý liên kết chi tiết sản phẩm
 function viewProductDetails(productName) {
