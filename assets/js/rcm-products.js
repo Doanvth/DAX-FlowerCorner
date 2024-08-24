@@ -59,7 +59,6 @@ var productsArray = [
       "Bó hoa Little Tana nhỏ xinh được thiết kế từ hoa cúc tana theo phong cách đơn giản, mộc mạc phù hợp để làm hoa tặng tốt nghiệp hay hoa sinh nhật người thân, bạn bè.",
     component: "Bó hoa Little Tana được thiết có từ",
     element1: "Hoa cúc tana: 1 bó",
-    element2: "",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/APR_2024/z5518904182385_fe64a4bf55c1dacca1aed16614cdceb4.jpg.webp",
@@ -148,7 +147,6 @@ var productsArray = [
       "Một bó hoa cẩm tú cầu nhỏ xinh là sự lựa chọn hoàn hảo cho mọi dịp đặc biệt. Nếu bạn đang cần tìm một bó hoa tươi giá rẻ để tặng người thân, bạn bè thì Just Love là lựa chọn hoàn toàn phù hợp.",
     component: "Bó Hoa Just Love được thiết kế từ",
     element1: "Hoa cẩm tú cầu: 3 cành",
-    element2: "",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_046.jpg.webp",
@@ -159,7 +157,6 @@ var productsArray = [
     description: "",
     component: "Bó hoa Lời Yêu Đầu được thiết kế từ:",
     element1: "Hoa hồng Ecuador đỏ nhập: 35 cành",
-    element2: "",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_045.jpg.webp",
@@ -170,7 +167,6 @@ var productsArray = [
     description: "",
     component: "Bó hoa Đại Dương Xanh được thiết kế từ:",
     element1: "Hoa sao xanh: 5 bó",
-    element2: "",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_059.jpg.webp",
@@ -1235,8 +1231,6 @@ var productsArray = [
     oldPrice: "",
     description: "",
     component: "",
-    element1: "",
-    element2: "",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_066.jpg.webp",
@@ -1316,8 +1310,6 @@ var productsArray = [
     oldPrice: "",
     description: "",
     component: "",
-    element1: "",
-    element2: "",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_055.jpg.webp",
@@ -2252,10 +2244,10 @@ function displayProducts(products) {
                             <span class="price-new">${product.newPrice}</span>
                         </p>
                         <a href="#" class="btn btn-primary" onclick="addToCart('${
-                          product.name
-                        }', ${parseInt(
-        product.newPrice.replace(/[^\d]/g, "")
-      )}, '${product.img}')">ĐẶT HÀNG</a>
+                          products[i].name
+                        }', ${parseFloat(
+        products[i].newPrice.replace(/[^0-9.-]+/g, "")
+      )}, '${products[i].img}')">ĐẶT HÀNG</a>
                     </div>
                   </div>
                 </div>`;

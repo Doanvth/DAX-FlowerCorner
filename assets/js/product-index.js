@@ -5,6 +5,12 @@ let products1 = [
     sale: 11,
     newPrice: "390,000VND",
     oldPrice: "440,000VND",
+    description:
+      "Hoa baby trắng tượng trưng cho tình yêu tinh khiết, sự trong trắng, mỏng manh, thanh tao như chính vẻ ngoài của hoa mang lại. Kết hợp với 5 bông hồng kem càng mang lại sự tinh khiết cho mối tình của bạn.",
+    component: "Bó hoa Endless Love được thiết kế từ",
+    element1: "Hoa hồng kem: 5 cành",
+    element2: "Hoa baby trắng: 100gram",
+    element3: "Các loại hoa lá phụ: Cỏ lan chi, lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-hong-dieu-ngot-ngao-nhat.jpg.webp",
@@ -12,6 +18,12 @@ let products1 = [
     sale: 18,
     newPrice: "860,000VND",
     oldPrice: "1,050,000VND",
+    description:
+      "Cẩm chướng là loài hoa tượng trưng cho vẻ đẹp dịu dàng, đáng yêu nhưng cũng đầy bản lĩnh và mạnh mẽ. Trong cuộc đời mỗi người, cảm giác hạnh phúc nhất chính là yêu và được yêu. Một sớm mai thức dậy nhận được một bó hoa cẩm chướng xinh xắn, chắc chắn người con gái ấy sẽ cảm thấy hạnh phúc đến chừng nào. Đừng chần chừ bạn nhé, hãy gửi tình yêu bạn đến người con gái đặc biệt ấy nào.",
+    component: "Hoa hồng trắng phun xanh: 20 cành",
+    element1: "Hoa hồng pastel: 10 cành",
+    element2: "Hoa baby trắng: 50 gram",
+    element3: "Các loại hoa lá phụ: lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/APR_2024/hi-vong-nang-mai-1.jpg.webp",
@@ -19,6 +31,11 @@ let products1 = [
     sale: 12,
     newPrice: "370,000VND",
     oldPrice: "420,000VND",
+    description: `Bó hoa Ineffabl được thiết kế với hoa hướng dương làm chủ đạo, như ánh mặt trời tỏa sáng ước vọng. Ngoài việc chọn làm hoa sinh nhật, "Hi vọng nắng mai" còn thích hợp chọn làm hoa chúc mừng các dịp lễ như 20/10, 8/3, kỉ niệm ngày yêu/cưới...`,
+    component: "Bó hoa Ineffable được thiết kế từ",
+    element1: "Hoa hướng dương: 3 cành",
+    element2: "Hoa cúc rosy trắng: 5 cành",
+    element3: "Các loại hoa lá phụ trang trí khác: Cỏ đồng tiền, cúc tana",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-hong-do-burning-love.jpg.webp",
@@ -26,6 +43,11 @@ let products1 = [
     sale: 11,
     newPrice: "590,000VND",
     oldPrice: "660,000VND",
+    description:
+      "Đẹp dịu dàng và trang nhã, bó hoa là sự lựa chọn thích hợp như một món quà thay lời tri ân gửi cho những người đã luôn yêu thương bạn. Bó hoa cũng có thể là lời cảm ơn đầy chân thành của những người con dành tặng cho mẹ của mình để đền đáp công ơn nuôi dạy của mẹ những tháng năm qua.",
+    component: "Bó hoa Burning Love được thiết kế từ",
+    element1: "Hoa hồng đỏ: 20 cành",
+    element2: "Các loại hoa lá phụ: Lá bạc",
   },
 ];
 
@@ -36,6 +58,10 @@ let products2 = [
     sale: 0,
     newPrice: "390,000VND",
     oldPrice: "",
+    description:
+      "Bó hoa Little Tana nhỏ xinh được thiết kế từ hoa cúc tana theo phong cách đơn giản, mộc mạc phù hợp để làm hoa tặng tốt nghiệp hay hoa sinh nhật người thân, bạn bè.",
+    component: "Bó hoa Little Tana được thiết có từ",
+    element1: "Hoa cúc tana: 1 bó",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/APR_2024/z5518904182385_fe64a4bf55c1dacca1aed16614cdceb4.jpg.webp",
@@ -43,6 +69,12 @@ let products2 = [
     sale: 0,
     newPrice: "470,000VND",
     oldPrice: "",
+    description:
+      "Hạnh phúc đôi khi không được tính bằng năm, bằng tháng mà hạnh phúc có thể đong đầy dù trong một khoảnh khắc. Hãy gửi đến người bạn yêu thương nhất những khoảnh khắc chứa đựng đầy yêu thương nhé. Bó hoa gồm tông màu hồng lãng mạn của hồng kem kết hợp với vẻ đẹp đầy đáng yêu của cẩm chướng trắng. Nếu bạn đang cần tìm một bó hoa tặng sinh nhật hay tốt nghiệp, Your Day là một trong những lựa chọn mà bạn không nên bỏ qua.",
+    component: "Bó hoa Your Day được thiết kế từ",
+    element1: "Hoa hồng kem: 9 cành",
+    element2: "Hoa cẩm chướng trắng: 8 cành",
+    element3: "Các loại hoa lá phụ",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/bo-hoa-baby-hong-pink-moon.jpg.webp",
@@ -50,6 +82,11 @@ let products2 = [
     sale: 9,
     newPrice: "940,000VND",
     oldPrice: "1,030,000VND",
+    description:
+      "Bạn đang cần tìm một mẫu hoa để tặng cho người bạn gái mới quen trong những lần hẹn hò đầu tiên? Pink Moon chắc chắn sẽ là một món quà phù hợp mở lời giúp bạn đấy. Sản phẩm là sự kết hợp từ hoa hồng kem kết hợp hoàn hảo với baby hồng như lời yêu thương ngọt ngào nhưng vô cùng tinh tế gửi đến bạn gái trong những dịp đặc biệt.",
+    component: "Bó hoa Pink Moon được thiết kế từ:",
+    element1: "Hoa hồng kem pastel: 15 cành",
+    element2: "Hoa baby phun hồng: 400 gram",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/khuc-tinh-ca.jpg.webp",
@@ -57,6 +94,12 @@ let products2 = [
     sale: 6,
     newPrice: "580,000VND",
     oldPrice: "620,000VND",
+    description:
+      "Bó hoa tone hồng nhẹ nhàng được thiết kế từ các loài hoa cúc ping pong, hoa hồng kem dâu kết hợp với cát tường xoăn trắng là lựa chọn hoàn hảo để gửi đến những người phụ nữ mà bạn yêu thương vào những dịp đặc biệt.",
+    component: "Bó hoa Khúc Tình Ca được thiết kế từ:",
+    element1: "Hoa cúc ping pong: 10 cành",
+    element2: "Hoa hồng pastel: 5 cành",
+    element3: "Hoa cát tường: 10 cành",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/bo-hoa-cat-tuong-nu-cuoi-em.jpg.webp",
@@ -64,6 +107,12 @@ let products2 = [
     sale: 7,
     newPrice: "390,000VND",
     oldPrice: "420,000VND",
+    description:
+      "Hoa cát tường hồng bung nở tựa như nụ cười dịu dàng, ngọt ngào. Bó hoa nụ cười em là lựa chọn thích hợp để gửi tặng vợ, bạn bái vào những dịp đặc biệt.",
+    component: "Bó hoa Nụ Cười Em được thiết kế từ:",
+    element1: "Hoa cát tường hồng: 10 cành",
+    element2: "Hoa cẩm tú cầu ",
+    element3: "Các loại hoa lá phụ",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/bo-hoa-baby-first-date.jpg.webp",
@@ -71,6 +120,11 @@ let products2 = [
     sale: 12,
     newPrice: "520,000VND",
     oldPrice: "590,000VND",
+    description:
+      "Là sự kết hợp giữa hoa hồng kem và baby phun hồng quen thuộc. Bó hoa vừa mang vẻ bình dị, vừa sang trọng. Rất thích hợp để tặng cho bạn bè, người thân hay cả người yêu vào những dịp đặc biệt.",
+    component: "Bó Hoa First Date được thiết kế từ",
+    element1: "Hoa hồng kem: 3 cành",
+    element2: "Hoa baby trắng phun hồng: 250gram",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/nha-nhan.jpg.webp",
@@ -78,6 +132,13 @@ let products2 = [
     sale: 0,
     newPrice: "490,000VND",
     oldPrice: "",
+    description:
+      "Bó hoa được thiết kế với sự kết hợp khéo léo giữa hoa cẩm tú cầu mang theo hương mộng mơ từ Đà Lạt, cùng với các loại hoa lá phụ. Tất cả được hòa quyện và thiết kế theo phong cách hiện đại và tinh tế nhưng không kém phần mới lạ và tràn đầy sức sống. Dành tặng bó hoa này cho bạn bè, người thân hay cả người ấy đều là 1 lựa chọn lý tưởng đấy.",
+    component: "Bó hoa Nhã nhặn bao gồm:",
+    element1: "Cẩm tú cầu",
+    element2: "Cúc tana",
+    element3: "Hoa thúy châu",
+    element4: "Các loại hoa lá phụ",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_048.jpg.webp",
@@ -85,6 +146,10 @@ let products2 = [
     sale: 20,
     newPrice: "240,000VND",
     oldPrice: "300,000VND",
+    description:
+      "Một bó hoa cẩm tú cầu nhỏ xinh là sự lựa chọn hoàn hảo cho mọi dịp đặc biệt. Nếu bạn đang cần tìm một bó hoa tươi giá rẻ để tặng người thân, bạn bè thì Just Love là lựa chọn hoàn toàn phù hợp.",
+    component: "Bó Hoa Just Love được thiết kế từ",
+    element1: "Hoa cẩm tú cầu: 3 cành",
   },
 ];
 
@@ -95,6 +160,9 @@ let products3 = [
     sale: 0,
     newPrice: "3,570,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Lời Yêu Đầu được thiết kế từ:",
+    element1: "Hoa hồng Ecuador đỏ nhập: 35 cành",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_045.jpg.webp",
@@ -102,6 +170,9 @@ let products3 = [
     sale: 0,
     newPrice: "1,125,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Đại Dương Xanh được thiết kế từ:",
+    element1: "Hoa sao xanh: 5 bó",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_059.jpg.webp",
@@ -109,6 +180,11 @@ let products3 = [
     sale: 0,
     newPrice: "650,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Thu Dịu Dàng được thiết kế từ:",
+    element1: "Hoa hồng cam spirit: 12 cành",
+    element2: "Hoa cẩm chướng chùm trắng: 7 cành",
+    element3: "Các loại hoa lá phụ khác: Lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_055.jpg.webp",
@@ -116,6 +192,10 @@ let products3 = [
     sale: 0,
     newPrice: "480,000VND",
     oldPrice: "",
+    description: "Bó hoa Mưa Thu được thiết kế từ:",
+    component: "",
+    element1: "Hoa cúc rosy nhuộm xanh: 2 bó",
+    element2: "Hoa hướng dương: 1 cành",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_057.jpg.webp",
@@ -123,6 +203,10 @@ let products3 = [
     sale: 0,
     newPrice: "880,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Êm Đềm Thương được thiết kế từ:",
+    element1: "Hoa hồng O'hara đỏ: 25 cành",
+    element2: "Các loại hoa lá phụ khác: Lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_049.jpg.webp",
@@ -130,6 +214,12 @@ let products3 = [
     sale: 0,
     newPrice: "1,875,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Charming Rune được thiết kế từ:",
+    element1: "Hoa hồng EXPLORER: 5 cành",
+    element2: "Hoa cẩm chướng đơn đỏ: 10 cành",
+    element3: "Hoa cúc mẫu đơn hồng: 3 cành",
+    element4: "Các loại hoa lá phụ khác: Hoa thạch thảo tím, lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_050.jpg.webp",
@@ -137,6 +227,11 @@ let products3 = [
     sale: 0,
     newPrice: "1,350,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Dreamlike được thiết kế từ:",
+    element1: "Hoa cẩm chướng YAKARI CHERRY nhập: 15 cành",
+    element2: "Hoa hồng trắng: 5 cành",
+    element3: "Các loại hoa lá phụ khác: Cỏ lan chi, lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/APR_2024/hoaxanh.jpg.webp",
@@ -144,6 +239,12 @@ let products3 = [
     sale: 0,
     newPrice: "3,300,000VND",
     oldPrice: "",
+    description:
+      "Bó hoa Tulip Magnificent được thiết kế từ 30 cành hoa tulip màu xanh dương kết hợp cùng hoa cẩm tú cầu và lá bạc. Bó hoa là lựa chọn hoàn hảo để gửi tặng vợ, bạn gái vào dịp sinh nhật, lễ tình nhân valentine hay ngày kỉ niệm ngày cưới.",
+    component: "Bó Hoa Tulip Magnificent gồm có:",
+    element1: "Hoa Tulip xanh: 30 cành",
+    element2: "Hoa cẩm tú cầu",
+    element3: "Lá bạc",
   },
 ];
 
@@ -154,6 +255,13 @@ let products4 = [
     sale: 0,
     newPrice: "580,000VND",
     oldPrice: "",
+    description:
+      "Giỏ hoa chúc mừng may mắn được thiết kế với hoa hướng dương và cát tường mang đến sự may mắn, tài lộc phù hợp để làm quà tặng bạn bè nhân dịp khai trương. Nếu bạn đang tìm kiếm một mẫu giỏ hoa khai trương giá rẻ thì May Mắn là sự lựa chọn hoàn hảo.",
+    component: "Giỏ hoa chúc mừng May Mắn được thiết kế từ:",
+    element1: "Hoa hướng dương: 3 cành",
+    element2: "Hoa cát tường trắng: 5 cành",
+    element3: "Hoa cẩm chướng trắng: 10 cành",
+    element4: "Các loại hoa lá phụ: Hoa thạch thảo trắng, lá bạc nhí",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/lang-hoa-hong-ban-tinh-ca.jpg.webp",
@@ -161,6 +269,13 @@ let products4 = [
     sale: 0,
     newPrice: "550,000VND",
     oldPrice: "",
+    description:
+      "Với màu sắc rực rỡ từ những bông hoa hồng kem tươi đẹp kết hợp với hoa cát tường phớt hồng ấm áp và tinh tế, lẵng hoa sẽ đưa bạn và cô ấy trở lại những ngày xưa tốt đẹp khi bạn vẫn còn trẻ, tràn đầy sức sống và say đắm trong hoài bão. Không chỉ mang đến nét đẹp gần gũi, mộc mạc và thoang thoảng hương mùa hè, giỏ hoa Bản Tình Ca sẽ giúp bạn thay lời gửi đến những điều chúc tốt đẹp nhất, mang đến niềm vui và đặc biệt là sự động viên đầy dễ thương đến người nhận. Đừng quên gửi kèm theo một lời nhắn nhỏ xinh để tăng thêm phần đặc biệt của món quà nhé.",
+    component: "Lẵng Bản Tình Ca được thiết kế từ:",
+    element1: "Hoa hồng kem: 10 cành",
+    element2: "Hoa cát tường phớt hồng: 8 cành ",
+    element3: "Hoa cẩm chướng trắng đơn: 10 cành ",
+    element4: "Các loại lá phụ : lá bạc nhí",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-hong-do-only-love.jpg.webp",
@@ -168,6 +283,10 @@ let products4 = [
     sale: 9,
     newPrice: "390,000VND",
     oldPrice: "430,000VND",
+    description: `"Chỉ mang hình bóng một người trong tim" là lời nhắn mà bó hoa Only Love muốn gửi gắn. Được thiết kế chỉ từ 10 một bông hồng đỏ thắm thể hiện cho một tình yêu nồng nhiệt cháy bỏng và cũng rất chân thành. Yêu thương là luôn chia sẻ, quan tâm và thấu hiểu người mình thương bạn nhé. Đừng chần chừ mà hãy gửi đến họ một chút yêu thương đầy chân thành nhất cùng đóa hồng đỏ được tô điểm bằng những loại hoa phụ dễ thương khác nhé.`,
+    component: "Bó hoa Only Love được thiết kế từ",
+    element1: "Hoa hồng đỏ: 10 cành",
+    element2: "Lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-dong-tien-eap.jpg.webp",
@@ -175,6 +294,12 @@ let products4 = [
     sale: 14,
     newPrice: "360,000VND",
     oldPrice: "420,000VND",
+    description:
+      "Dịu dàng, e ấp như những bông đồng tiền màu hồng chính là thông điệp mà bó hoa đồng tiền màu hồng này muốn gửi tới một nửa của bạn. E ấp được thiết kế từ 8 bông hoa đồng tiền màu hồng dịu dàng là sự lựa chọn hoàn hảo để làm hoa tặng sinh nhật vợ, bạn gái.",
+    component: "Bó hoa E Ấp được thiết kế từ",
+    element1: "Hoa đồng tiền hồng: 12 cành",
+    element2: "Hoa baby trắng: 30 gram",
+    element3: "Các loại hoa lá phụ trang trí ",
   },
 ];
 
@@ -185,6 +310,11 @@ let products5 = [
     sale: 0,
     newPrice: "880,000VND",
     oldPrice: "",
+    description:
+      "Sắc đỏ rực rỡ nổi bật từ hoa đồng tiền không những mang đến sự may mắn, thịnh vượng, mà còn  gọi mời những điều tốt lành nhất đến với người nhận để họ có thể bắt đầu chuyến hành trình hướng đến mục tiêu đầy to lớn và vĩ đại của mình một cách thuận lợi và gặt hái được nhiều thành tựu.",
+    component: "Mẫu hoa khai trương Nhiệt Huyết được thiết kế từ",
+    element1: "Đồng tiền đỏ: 60 cành",
+    element2: "Các loại hoa lá phụ: Hoàng anh, lá cau",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/hoa-khai-truong-cat-tuong.jpg.webp",
@@ -192,6 +322,13 @@ let products5 = [
     sale: 0,
     newPrice: "910,000VND",
     oldPrice: "",
+    description:
+      "Chỉ với chủ đề đơn sắc vàng tươi thắm nhưng chiếc kệ không hề đơn giản khi nó, dưới bàn tay đầy nghệ thuật của thợ hoa, được thiết kế một cách độc đáo và đặc sắc. Kệ hoa khai trương Cát Tường như một niềm vui nho nhỏ, một lời chúc chân thành và tốt đẹp trao đến người nhận để chung vui trong ngày trọng đại. Chiếc kệ sẽ giúp lan toả những thành ý, những điều tốt lành, viên mãn và hạnh phúc đến mọi người.",
+    component: "Kệ hoa khai trương Cát Tường được thiết kế từ",
+    element1: "Hoa hướng dương: 15 cành",
+    element2: "Hoa đồng tiền vàng: 15 cành",
+    element3: "Hoa đồng tiền đỏ: 15 cành",
+    element4: "Các loại hoa lá phụ: Hoàng anh, lá cau",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/hoa-khai-truong-hong-phat-2.jpg.webp",
@@ -199,6 +336,13 @@ let products5 = [
     sale: 0,
     newPrice: "1,500,000VND",
     oldPrice: "",
+    description:
+      "Kệ hoa chúc mừng hồng phát 2 được thiết kế với tone màu đỏ từ những loài hoa hồng, hoa đồng tiền, những loài hoa tượng trưng cho sự may mắn. Kệ hoa là lựa chọn hoàn hảo để gửi lời chúc mừng đối tác, bạn bè nhân dịp khai trương cửa hàng, chi nhánh Công ty.",
+    component: "Kệ Hoa Chúc Mừng Hồng Phát 2 được thiết kế từ: ",
+    element1: "Hoa hồng đỏ: 40 cành",
+    element2: "Hoa đồng tiền đỏ: 35 cành",
+    element3: "Hoa cúc calimero trắng: 15 cành",
+    element4: "Các loại hoa lá phụ: Lá nguyệt quế, lá tai lừa xẻ.",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/hoa-khai-truong-trang-trong.jpg.webp",
@@ -206,6 +350,17 @@ let products5 = [
     sale: 23,
     newPrice: "1,780,000VND",
     oldPrice: "2,320,000VND",
+    description:
+      "Kệ hoa mừng khai trương với thiết đầy sáng tạo và tinh tế, được phối hợp từ các loại hoa khác nhau như hoa hồng, hướng dương... mỗi loài hoa tượng trưng cho những ý nghĩa sâu sắc và phong phú khác nhau. Cùng với tông màu vàng tươi sáng, kệ hoa là món quà mang thông điệp chúc chủ cửa hàng, công ty, chi nhánh mau gặt hái nhiều thành công và phát triển bền vững.",
+    component: "Kệ Hoa Khai Trương Trang Trọng được thiết kế từ",
+    element1: "Hoa hướng dương: 14 cành",
+    element2: "Hoa cẩm tú cầu: 12 cành",
+    element3: "Hoa hồng kem: 30 cành",
+    element4: "Hoa hồng vàng: 15 cành",
+    element5: "Hoa cát tường xanh : 10 cành",
+    element6: "Hoa cúc calimero vàng : 10 cành",
+    element7: "Hoa cúc calimero trắng : 10 cành",
+    element8: "Các loại hoa lá phụ: Lá nguyệt quế",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/hoa-khai-truong-vang-danh.jpg.webp",
@@ -213,6 +368,14 @@ let products5 = [
     sale: 0,
     newPrice: "1,150,000VND",
     oldPrice: "",
+    description:
+      "Kệ hoa khai trương đẹp sang trọng và đầy tinh tế, kệ hoa đặc biệt được tạo thành từ các loại hoa hồng kết hợp với hoa cát tường hồng và tím. Luôn vững bước trên con đường mình đã chọn và hướng đến một tương lai tươi sáng và tốt đẹp đầy an khang và thịnh vượng là thông điệp kệ hoa này mang đến.",
+    component: "Kệ hoa khai trương Vang Đanh được thiết kế từ",
+    element1: "Tú cầu xanh: 10 cành",
+    element2: "Hồng kem: 25 cành",
+    element3: "Cát tường hồng: 15 cành",
+    element4: "Cẩm chướng hồng: 15 cành",
+    element5: "Baby phun hồng: 50 gram",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/hoa-khai-truong-vung-ben.jpg.webp",
@@ -220,6 +383,14 @@ let products5 = [
     sale: 0,
     newPrice: "1,490,000VND",
     oldPrice: "",
+    description: `Kệ hoa khai trương Vững bền được thiết kế chủ yếu từ hoa hướng dương, loài hoa tượng trưng cho sự mạnh mẽ, bền bỉ, kết hợp với hoa hồng và các loại hoa lá phụ mang thông điệp "Chúc cho một sự khởi đầu mới thuận lợi và công việc kinh doanh phát triển bền vững, trường tồn".`,
+    component: "Hoa Chúc Mừng Vững được thiết kế từ",
+    element1: "Hoa hồng pastel: 20 cành",
+    element2: "Hoa hướng dương: 20 cành",
+    element3: "Hoa lan mokara vàng: 5 cành",
+    element4: "Hoa cúc calimero: 10 cành",
+    element5: "Hoa cát tường xanh: 5 cành",
+    element6: "Các loại hoa lá phụ khác: Trúc bách hợp",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/hoa-khai-truong-phon-vinh.jpg.webp",
@@ -227,6 +398,15 @@ let products5 = [
     sale: 0,
     newPrice: "2,050,000VND",
     oldPrice: "",
+    description:
+      "Khoảnh khắc tươi đẹp và huy hoàng nhất trong một ngày chính là khi mặt trời bắt đầu ló dạng toả ra thứ ánh sáng chói loà mà ấm áp đến muôn nơi cũng giống như một lời chúc, mong ước cho sự nổi tiếng và việc kinh doanh được lan rộng, ngày càng phát đạt và thịnh vượng. Dựa trên ý tưởng đó mẫu hoa khai trương phồn vinh đã được thiết kế với tông đỏ và hồng từ những bông hồng và đồng tiền tươi thắm để mô tả lại hình ảnh tươi đẹp ấy.",
+    component: "Kệ Hoa Khai Trương Phồn Vinh được thiết kế từ",
+    element1: "Hoa hồng kem: 50-60 cành",
+    element2: "Hoa đồng tiền hồng: 30 cành ",
+    element3: "Hoa đồng tiền đỏ: 30 cành ",
+    element4: "Hoa lan hồ điệp trắng: 2 cành (6-8 bông/cành)",
+    element5: "Hoa baby trắng: 100 gram",
+    element6: "Các loại hoa lá phụ: Lá mật cật",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/hoa-khai-truong-khai-hoan.jpg.webp",
@@ -234,6 +414,15 @@ let products5 = [
     sale: 0,
     newPrice: "1,850,000VND",
     oldPrice: "",
+    description: `"Khúc ca ăn mừng chiến thắng" chính là lời chúc cho sự may mắn, thăng tiến mà kệ hoa này mang đến. Ngập tràn màu sắc vàng rực rỡ và tươi sáng, tượng trưng cho niềm hy vọng, niềm tin vào tương lai rộng mở phía trước.`,
+    component: "Kệ Hoa Khai Trương Khải Hoàn được thiết kế từ",
+    element1: "Hoa hồng vàng: 45 cành",
+    element2: "Hoa hướng dương: 15 cành",
+    element3: "Hoa cúc pingpong vàng: 20 cành",
+    element4: "Hoa cúc lưới vàng: 10 cành",
+    element5: "Hoa mõm sói vàng: 20 cành",
+    element6: "Hoa lan vũ nữ vàng: 20 cành",
+    element7: "Các loại hoa lá phụ: Lá trầu bà",
   },
 ];
 
@@ -244,6 +433,10 @@ let products6 = [
     sale: 0,
     newPrice: "2,750,000VND",
     oldPrice: "",
+    description:
+      "Sắc vàng của những cánh hoa lan hồ điệp rực rỡ, lộng lẫy như một tài vật may mắn thu hút và đem lại những điều tốt đẹp nhất đến với gia chủ. Hãy ghi thêm điểm trong mắt đối phương cũng như thể hiện tâm ý chân thành của bạn đến họ thông qua việc gửi tặng chậu lan hồ điệp 005 gồm 10 cành lan vàng xinh đẹp này đến họ nhé.",
+    component: "Chậu lan bao gồm:",
+    element1: "Lan hồ điệp vàng : 10",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/chau-lan-ho-diep-tet-quy-phuc.jpg.webp",
@@ -251,6 +444,10 @@ let products6 = [
     sale: 0,
     newPrice: "2,970,000VND",
     oldPrice: "",
+    description: "",
+    component: "Chậu lan hồ điệp Tết Phú Quý được thiết kế từ:",
+    element1: "Cây lan hồ điệp trắng: 5 cây",
+    element2: "Cây lan hồ điệp tím: 6 cây",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/chau-lan-ho-diep-phat-tai-tet.jpg.webp",
@@ -258,6 +455,9 @@ let products6 = [
     sale: 0,
     newPrice: "1,540,000VND",
     oldPrice: "",
+    description: "",
+    component: "Chậu lan hồ điệp Phát Tài Tết được thiết kế từ:",
+    element1: "Cây lan hồ điệp trắng: 5 cây",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/lan-ho-diep-06.jpg.webp",
@@ -265,6 +465,9 @@ let products6 = [
     sale: 0,
     newPrice: "2,780,000VND",
     oldPrice: "",
+    description: "",
+    component: "Châu Lan Hồ Điệp được thiết kế từ:",
+    element1: "Làn hồ điệp vàng: 10 cây",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/chau-lan-ho-diep-013-2.jpg.webp",
@@ -272,6 +475,11 @@ let products6 = [
     sale: 0,
     newPrice: "2,950,000VND",
     oldPrice: "",
+    description:
+      "Chậu lan hồ điệp 013 được trang trí theo chủ đề Tết Nguyên Đán với 2 màu trắng và vàng. Nếu bạn muốn chúc ai đó một năm vạn sự như ý, may mắn phát tài; gia đình luôn vui khỏe, hạnh phúc thì chậu lan 3 cành hồ điệp vàng cạnh bên 9 cành hồ điệp mix trắng vàng này hoàn toàn phù hợp để bạn lựa chọn.",
+    component: "Chậu lan bao gồm:",
+    element1: "Lan hồ điệp vàng : 4",
+    element2: "Lan hồ điệp trắng : 6",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/chau-lan-ho-diep-008-02.jpg.webp",
@@ -279,6 +487,10 @@ let products6 = [
     sale: 0,
     newPrice: "2,810,000VND",
     oldPrice: "",
+    description:
+      "Tượng trưng cho sự thịnh vượng, sang trọng và quý phái, hoa lan hồ điệp màu trắng là một trong những màu sắc được ưa chuộng nhất. Chậu lan hồ điệp 008 được thiết kế từ 10 cành hoa lan hồ điệp màu trắng được thiết kế bởi shop hoa tươi FlowerCorner sẽ là lựa chọn hoàn hảo để dành tặng cho ba mẹ, cấp trên trong dịp sinh nhật, chúc mừng thăng chức hay những ngày lễ đặc biệt khác trong năm.",
+    component: "Chậu lan hồ điệp 008 bao gồm:",
+    element1: "Lan hồ điệp trắng : 10 cành",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/chau-lan-ho-diep-mini-038.jpg.webp",
@@ -286,6 +498,10 @@ let products6 = [
     sale: 0,
     newPrice: "1,590,000VND",
     oldPrice: "",
+    description:
+      "Với sắc hồng nhạt dễ thương chậu lan hồ điệp mang nét đẹp yêu kiều, thanh lệ - một nét đẹp trường tồn cùng năm tháng sẽ là một món quà sinh nhật sang trọng đầy ý nghĩa đến đối phương, đặc biệt là dành tặng cho  những người phụ nữ tuyệt vời trong cuộc đời bạn.",
+    component: "Chậu lan gồm có:",
+    element1: "Lan hồ điệp mini hồng: 5 cành (2 vòi/cành)",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/lan-ho-diep-05.jpg.webp",
@@ -293,6 +509,9 @@ let products6 = [
     sale: 0,
     newPrice: "1,750,000VND",
     oldPrice: "",
+    description: "",
+    component: "Châu Lan Hồ Điệp được thiết kế từ:",
+    element1: "Làn hồ điệp vàng: 6 cây",
   },
 ];
 
@@ -328,9 +547,9 @@ function productsFlowerCorner(products) {
                       </p>
                       <a href="#" class="btn btn-primary" onclick="addToCart('${
                         products[i].name
-                      }', ${parseInt(products[i].newPrice)}, '${
-        products[i].img
-      }')">ĐẶT HÀNG</a>
+                      }', ${parseFloat(
+        products[i].newPrice.replace(/[^0-9.-]+/g, "")
+      )}, '${products[i].img}')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
@@ -360,9 +579,9 @@ function productsFlowerCorner(products) {
                       </p>
                       <a href="#" class="btn btn-primary" onclick="addToCart('${
                         products[i].name
-                      }', ${parseInt(products[i].newPrice)}, '${
-        products[i].img
-      }')">ĐẶT HÀNG</a>
+                      }', ${parseFloat(
+        products[i].newPrice.replace(/[^0-9.-]+/g, "")
+      )}, '${products[i].img}')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
@@ -414,9 +633,9 @@ function productsFlowerCornerCountDown(products) {
                   </p>
                   <a href="#" class="btn btn-primary" onclick="addToCart('${
                     products[i].name
-                  }', ${parseInt(products[i].newPrice)}, '${
-      products[i].img
-    }')">ĐẶT HÀNG</a>
+                  }', ${parseFloat(
+      products[i].newPrice.replace(/[^0-9.-]+/g, "")
+    )}, '${products[i].img}')">ĐẶT HÀNG</a>
               </div>
               <div class="countdown" id="countdown-${i}">
                   <div><span class="days"></span> Ngày</div>
@@ -444,7 +663,7 @@ document.querySelector(".list-products-5").innerHTML =
 document.querySelector(".list-products-6").innerHTML =
   productsFlowerCorner(products6);
 
-// Countdown - Đếm ngược thời gian
+// Countdown - Đếm ngược thời gian, sử dụng thuật toán calculation of countdown timer (stack overflow)
 function startCountdown(elementId, end) {
   const countdownElement = document.getElementById(elementId);
 
@@ -473,7 +692,7 @@ function startCountdown(elementId, end) {
   }
 
   const showTime = setInterval(updateCountdown, 1000);
-  updateCountdown(); // Hiển thị ngay lập tức
+  updateCountdown(); // Hiển thị ngay lập tức khi đặt thời gian lặp lại mỗi giây
 }
 
 // Khởi động countdown cho từng sản phẩm trong products1

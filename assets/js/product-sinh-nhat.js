@@ -5,6 +5,13 @@ let products = [
     sale: 0,
     newPrice: "1,452,500VND",
     oldPrice: "",
+    description:
+      "Sắc đỏ rực tượng trưng cho sự rực rỡ của mặt trời trong khi hồng kem đẹp như màu của mây vào lúc bình minh. Giỏ hoa cùng những loại hoa khác nhau, thiết kế dựa theo vẻ đẹp của bình minh và gửi gắm đi thông điệp về một sự bắt đầu của những gì tươi mới và tốt đẹp nhất.",
+    component: "Lẵng hoa Bình Minh được thiết kế từ:",
+    element1: "Hoa hồng spirit: 25 cành",
+    element2: "Hoa cúc pingpong hồng: 10 cành",
+    element3: "Hoa lan hồ điệp: 1 cành",
+    element4: "Các loại hoa lá phụ: Cỏ đồng tiền, lá chanh ý tươi",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBASKET_008.jpg.webp",
@@ -12,6 +19,14 @@ let products = [
     sale: 0,
     newPrice: "1,752,800VND",
     oldPrice: "",
+    description:
+      "Khi bạn không thể ở cạnh một ai đó, nhưng vẫn muốn gửi cho họ thật nhiều yêu thương, quan tâm. Vậy hãy đặt ngay 1 lẵng hoa tươi ngọt ngào thế này kèm một lời nhắn rằng luôn có một người mong được ở bên ấy, ôm chặt ấy ngay lúc này. Vì yêu thương là phải được nói ra và thể hiện.",
+    component: "Lẵng Hoa Hạ Cuối được thiết kế từ:",
+    element1: "Hoa hồng catalina: 15 cành",
+    element2: "Hoa hồng cam shimmer: 22 cành",
+    element3: "Hoa cúc mẫu đơn cam: 4 cành Hoa lan hồ điệp: 1 cành",
+    element4:
+      "Hoa thiên điểu: 2 cành Các loại hoa lá phụ khác: Lá bạc nhí, hoa baby trắng",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBASKET_007.jpg.webp",
@@ -19,6 +34,12 @@ let products = [
     sale: 0,
     newPrice: "791,000VND",
     oldPrice: "",
+    description:
+      "Một buổi sáng thức dậy, nhận được một giỏ hoa xinh xắn mang sắc hồng dễ thương chắc chắn sẽ khiến bất cứ ai nhận được ngất ngây cả ngày dài. Với gam màu hồng nhẹ nhàng, lãng mạn từ hoa hồng và cẩm chướng, được tô điểm bởi màu xanh ngát từ những chiếc lá phụ xung quanh, tạo nên vẻ đẹp nên thơ, dễ mến. Hãy tặng ngay giỏ hoa này đến người mà bạn thấy rằng cũng mang nét xinh như những cánh hoa này nhé.",
+    component: "Lẵng Hoa Nét Xinh được thiết kế từ",
+    element1: "Hoa cát tường hồng cam: 5 cành Hoa o'hara hồng: 10 cành",
+    element2: "Hoa cẩm chướng đơn hồng: 5 cành",
+    element3: "Các loại hoa lá phụ khác: Lá bạc, scabiosa hồng đậm",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_071.jpg.webp",
@@ -26,6 +47,10 @@ let products = [
     sale: 0,
     newPrice: "1,645,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Sweets được thiết kế từ:",
+    element1: "Hoa hồng hột gà: 70 cành",
+    element2: "Hoa hồng manta: 20 cành",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_070.jpg.webp",
@@ -33,6 +58,13 @@ let products = [
     sale: 0,
     newPrice: "680,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Highland Story được thiết kế từ:",
+    element1: "Hoa hướng dương: 4 cành",
+    element2: "Hoa hồng kem: 7 cành",
+    element3: "Hoa cẩm chướng đơn trắng: 7 cành",
+    element4: "Hoa cát tường trắng: 5 cành",
+    element5: "Các loại hoa lá phụ khác: Cỏ đồng tiền, lá bạc nhí",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_069.jpg.webp",
@@ -40,6 +72,11 @@ let products = [
     sale: 0,
     newPrice: "650,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Flower Field được thiết kế từ:",
+    element1: "Hoa hồng vàng: 15 cành",
+    element2: "Hoa cát tường trắng: 5 cành",
+    element3: "Các loại hoa lá phụ trang trí: Lá thường xuân, lá dương xỉ",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_068.jpg.webp",
@@ -47,6 +84,12 @@ let products = [
     sale: 0,
     newPrice: "650,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Cổ Tích được thiết kế từ:",
+    element1: "Hoa hồng kem: 12 cành",
+    element2: "Hoa cát tường hồng phớt: 5 cành",
+    element3:
+      "Các loại hoa lá phụ trang trí: Cúc bạch nhật, lá bạc nhí, tùng nho, cỏ lan chi",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_067.jpg.webp",
@@ -54,6 +97,8 @@ let products = [
     sale: 0,
     newPrice: "1,990,000VND",
     oldPrice: "",
+    description: "",
+    component: "",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_066.jpg.webp",
@@ -61,6 +106,10 @@ let products = [
     sale: 0,
     newPrice: "2,000,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Rainy Day được thiết kế từ:",
+    element1: "Hoa cẩm tú cầu xanh nhập: 4 cành",
+    element2: "Hoa lan hồ điệp nhuộm xanh: 2 cành (6-8 bông/cành)",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/lang-hoa-hong-cam-01.jpg.webp",
@@ -68,6 +117,12 @@ let products = [
     sale: 9,
     newPrice: "690,000VND",
     oldPrice: "760,000VND",
+    description:
+      "Lẵng hoa được thiết kế với tone màu cam rực rỡ từ hoa hồng cam free spirit mang đến một không khí tươi vui và sự may mắn. Nếu bạn đang cần một lẵng hoa nhỏ xinh để gửi lời chúc mừng người thân, bạn bè vào những dịp đặc biệt, Sunrise Spirit sẽ là lựa chọn hoàn hảo.",
+    component: "Giỏ hoa Sunrise Spirit được thiết kế từ",
+    element1: "Hoa hồng cam: 18 cành",
+    element2: "Hoa cẩm chướng đơn chùm hồng: 5 cành",
+    element3: "Các loại hoa lá phụ khác: Hoa cúc tana, cỏ đồng tiền, lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_064.jpg.webp",
@@ -75,6 +130,11 @@ let products = [
     sale: 0,
     newPrice: "1,990,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa DreamLand được thiết kế từ:",
+    element1: "Hoa cẩm tú cầu hồng nhập: 3 cành",
+    element2: "Hoa tulip cam: 5",
+    element3: "Các loại hoa lá phụ khác: Lá bạc nhí",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_063.jpg.webp",
@@ -82,6 +142,9 @@ let products = [
     sale: 0,
     newPrice: "1,100,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Mỹ Miều được thiết kế từ:",
+    element1: "Hoa hồng đen: 40 cành",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_059.jpg.webp",
@@ -89,6 +152,11 @@ let products = [
     sale: 0,
     newPrice: "650,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Thu Dịu Dàng được thiết kế từ:",
+    element1: "Hoa hồng cam spirit: 12 cành",
+    element2: "Hoa cẩm chướng chùm trắng: 7 cành",
+    element3: "Các loại hoa lá phụ khác: Lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/day-dreamer.jpg.webp",
@@ -96,6 +164,11 @@ let products = [
     sale: 0,
     newPrice: "650,000VND",
     oldPrice: "",
+    description:
+      "Bó hoa Day Dreamer là sự kết hợp tinh tế và tuyệt vời. Được bó từ những cành hoa hồng Juliet cao cấp, đây sẽ là một món quà cực kỳ sang trọng và ỹ nghĩa.",
+    component: "Bó hoa Day Dreamer được thiết kế từ",
+    element1: "Hoa hồng juliet: 15 cành",
+    element2: "Các loại hoa lá phụ: Lá bạc Trung",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_058.jpg.webp",
@@ -103,6 +176,8 @@ let products = [
     sale: 0,
     newPrice: "800,000VND",
     oldPrice: "",
+    description: "",
+    component: "",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_055.jpg.webp",
@@ -110,6 +185,11 @@ let products = [
     sale: 0,
     newPrice: "480,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Nàng Thu được thiết kế từ:",
+    element1: "Hoa hồng cam spirit: 25 cành",
+    element2: "Hoa cát tường trắng: 3",
+    element3: "Các loại hoa lá phụ khác: Lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-baby-mix-hong-kem.jpg.webp",
@@ -117,6 +197,12 @@ let products = [
     sale: 11,
     newPrice: "390,000VND",
     oldPrice: "440,000VND",
+    description:
+      "Hoa baby trắng tượng trưng cho tình yêu tinh khiết, sự trong trắng, mỏng manh, thanh tao như chính vẻ ngoài của hoa mang lại. Kết hợp với 5 bông hồng kem càng mang lại sự tinh khiết cho mối tình của bạn. ",
+    component: "Bó hoa Endless Love được thiết kế từ",
+    element1: "Hoa hồng kem: 5 cành",
+    element2: "Hoa baby trắng: 100gram",
+    element3: "Các loại hoa lá phụ: Cỏ lan chi, lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-hong-do-xuc-cam.jpg.webp",
@@ -124,6 +210,11 @@ let products = [
     sale: 0,
     newPrice: "730,000VND",
     oldPrice: "",
+    description:
+      "Bó hoa thể hiện sắc thái của một mối qua hệ đôi lứa: có những lúc đắm say hạnh phúc, có những lúc lạnh lùng nhưng đầy sự quan tâm. Sắc đỏ rực rỡ mãnh liệt từ cánh hồng được kết hợp với giấy gói đặc biệt, tạo nên một bó hoa vừa chứa đầy sự yêu thương vừa đong đầy nhiều nỗi nhớ. Hãy cùng nhau kỉ niệm mối quan hệ đặc biệt của hai bạn bằng bó hoa tươi mang đầy cảm xúc này nhé.",
+    component: "Bó Hoa Xúc Cảm được thiết kế từ",
+    element1: "Hoa hồng đỏ: 25 cành",
+    element2: "Các loại hoa lá phụ: Sao tìm phun đỏ",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202023/bo-hoa-ngo-loi.jpg.webp",
@@ -131,6 +222,10 @@ let products = [
     sale: 12,
     newPrice: "220,000VND",
     oldPrice: "250,000VND",
+    description: "",
+    component: "Bó Hoa Ngỏ Lời được thiết kế từ:",
+    element1: "Hoa hồng kem: 3 cành",
+    element2: "Các loài hoa lá phụ: Lá chanh, hoa thạch thảo trắng",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_062.jpg.webp",
@@ -138,6 +233,12 @@ let products = [
     sale: 0,
     newPrice: "754,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Mưa Ngọt Ngào được thiết kế từ:",
+    element1: "Hoa hồng kem: 12 cành",
+    element2: "Hoa cát tường hồng: 5 cành",
+    element3: "Hoa cẩm chướng chùm trắng: 5 cành",
+    element4: "Các loại hoa lá phụ khác: Lá bạc nhí, sao tím",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_061.jpg.webp",
@@ -145,6 +246,12 @@ let products = [
     sale: 0,
     newPrice: "839,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Kiêu Kỳ được thiết kế từ",
+    element1: "Hoa hồng song hỷ: 10 cành",
+    element2: "Hoa cẩm chướng hồng đơn: 10 cành",
+    element3: "Hoa cát tường phớt hồng: 5 cành",
+    element4: "Các loại hoa lá phụ khác: Lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_060.jpg.webp",
@@ -152,6 +259,11 @@ let products = [
     sale: 0,
     newPrice: "740,000VND",
     oldPrice: "",
+    description:
+      "Bó hoa tú cầu đầy rạng ngời mà cũng rất tinh tế cùng tông màu sáng tươi chắc chắn sẽ đem đến một bất ngờ đầy thú vị ngọt ngào mà chân thành. Giữa cuộc đời đầy những thử thách và cung bậc, hãy dành một phút để yêu thương và chia sẻ yêu thương đến những người quan trọng nhất trong cuộc đời bạn nhé.",
+    component: "Bó hoa Lời Hứa được thiết kế từ",
+    element1: "Hoa cẩm tú cầu xanh: 10 cành",
+    element2: "Các loại hoa lá phụ: Lá bạc nhí",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/Autumn_2024/NEWBOUQUET_057.jpg.webp",
@@ -159,6 +271,10 @@ let products = [
     sale: 0,
     newPrice: "880,000VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Êm Đềm Thương được thiết kế từ:",
+    element1: "Hoa hồng O'hara đỏ: 25 cành",
+    element2: "Các loại hoa lá phụ khác: Lá bạc",
   },
   {
     img: "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/products/August%202022/van-su-hong-phat.jpg.webp",
@@ -166,6 +282,11 @@ let products = [
     sale: 0,
     newPrice: "1,217,500VND",
     oldPrice: "",
+    description: "",
+    component: "Bó hoa Rực Rỡ Sắc được thiết kế từ:",
+    element1: "Hoa hồng O'hara đỏ: 25 cành",
+    element2: "Hoa hồng trắng: 25 cành",
+    element3: "Các loại hoa lá phụ khác: Lá bạc Trung",
   },
 ];
 
@@ -199,9 +320,9 @@ for (var i = 0; i < products.length; i++) {
                       </p>
                       <a href="#" class="btn btn-primary" onclick="addToCart('${
                         products[i].name
-                      }', ${parseInt(products[i].newPrice)}, '${
-      products[i].img
-    }')">ĐẶT HÀNG</a>
+                      }', ${parseFloat(
+      products[i].newPrice.replace(/[^0-9.-]+/g, "")
+    )}, '${products[i].img}')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
@@ -231,9 +352,9 @@ for (var i = 0; i < products.length; i++) {
                       </p>
                       <a href="#" class="btn btn-primary" onclick="addToCart('${
                         products[i].name
-                      }', ${parseInt(products[i].newPrice)}, '${
-      products[i].img
-    }')">ĐẶT HÀNG</a>
+                      }', ${parseFloat(
+      products[i].newPrice.replace(/[^0-9.-]+/g, "")
+    )}, '${products[i].img}')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;

@@ -329,11 +329,11 @@ for (var i = 0; i < products.length; i++) {
                           <span class="price-new">${products[i].newPrice}</span>
                           <span class="price-old">${products[i].oldPrice}</span>
                       </p>
-                      <a href="#" class="btn btn-primary" onclick="addToCart('${
-                        products[i].name
-                      }', ${parseInt(products[i].newPrice)}, '${
-      products[i].img
-    }')">ĐẶT HÀNG</a>
+                     <a href="#" class="btn btn-primary" onclick="addToCart('${
+                       products[i].name
+                     }', ${parseFloat(
+      products[i].newPrice.replace(/[^0-9.-]+/g, "")
+    )}, '${products[i].img}')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
@@ -361,11 +361,11 @@ for (var i = 0; i < products.length; i++) {
                       <p class="card-text text-center">
                           <span class="price-new">${products[i].newPrice}</span>
                       </p>
-                      <a href="#" class="btn btn-primary" onclick="addToCart('${
-                        products[i].name
-                      }', ${parseInt(products[i].newPrice)}, '${
-      products[i].img
-    }')">ĐẶT HÀNG</a>
+                     <a href="#" class="btn btn-primary" onclick="addToCart('${
+                       products[i].name
+                     }', ${parseFloat(
+      products[i].newPrice.replace(/[^0-9.-]+/g, "")
+    )}, '${products[i].img}')">ĐẶT HÀNG</a>
                   </div>
               </div>
           </div>`;
